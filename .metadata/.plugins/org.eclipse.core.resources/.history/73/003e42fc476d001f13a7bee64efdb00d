@@ -1,0 +1,5 @@
+package com.SpringBootREST.integrationtests.testcontainers;
+
+public class AbstractIntegrationTest {
+
+}

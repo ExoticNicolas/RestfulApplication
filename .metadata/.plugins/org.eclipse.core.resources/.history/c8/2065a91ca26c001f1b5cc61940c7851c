@@ -1,0 +1,26 @@
+package com.SpringBootREST.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.SpringBootREST.data.vo.BookVO;
+import com.SpringBootREST.exceptions.ResourceNotFoundException;
+import com.SpringBootREST.mapper.DozerMapper;
+import com.SpringBootREST.model.Book;
+import com.SpringBootREST.repositories.BookRepository;
+
+@Service
+public class BookService {
+	
+	@Autowired
+	private BookRepository bookRepository;
+	
+	public BookVO findById(Long id	) {
+		Book book = bookRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not Found"));
+		BookVO vo = DozerMapper.parseObject(book, BookVO.class);
+		vo.add(linkTo(methodOn(BookController.class).findById(id)).withSelf)
+		return vo;
+		
+	}
+
+}

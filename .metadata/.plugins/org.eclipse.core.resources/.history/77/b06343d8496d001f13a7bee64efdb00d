@@ -1,0 +1,5 @@
+package com.SpringBootREST.serialization.converter;
+
+public class YamlJackson2HttpMessageConverter {
+
+}

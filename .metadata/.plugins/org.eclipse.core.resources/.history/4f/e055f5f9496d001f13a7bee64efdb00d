@@ -1,0 +1,5 @@
+package com.SpringBootREST.util;
+
+public class MediaType {
+
+}

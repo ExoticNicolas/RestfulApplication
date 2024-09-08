@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringBootREST/src/main/resources/db/migration/V4__Populate_Table_Book.sql&apos; to &apos;V4__Populate_Table_Books.sql&apos;" description="Rename resource &apos;V4__Populate_Table_Book.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/db/migration/V4__Populate_Table_Book.sql" name="V4__Populate_Table_Books.sql" stamp="1725815156465" updateReferences="true"/>
+</session>

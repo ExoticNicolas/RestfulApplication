@@ -1,0 +1,32 @@
+package com.SpringBootREST.mapper;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import com.SpringBootREST.data.vo.PersonVO;
+
+public class PersonDozerConvertTest {
+	
+	private MockPerson inputObject;
+	
+	@BeforeEach
+	public void setUp() {
+		inputObject = new MockPerson();
+	}
+	
+	@Test
+	public void convertEntityToVO(){
+		PersonVO vo = DozerMapper.parseObject(inputObject.mockEntity(), PersonVO.class);
+		
+		assertEquals(Long.valueOf(0), vo.getId());
+		assertEquals("Test First Name0", vo.getFirstName());
+		assertEquals("Test Last Name0", vo.getLastName());
+		assertEquals("Test Address0", vo.getAddress());
+		assertEquals("Test Gender0", vo.getGender());
+		
+		
+	}
+
+}

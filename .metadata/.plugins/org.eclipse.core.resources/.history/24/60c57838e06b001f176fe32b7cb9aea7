@@ -1,0 +1,5 @@
+
+INSERT INT BOOK('ID','NAME','AUTHOR') VALUES
+			   (1,'Harry Potter','JK Rowlling')
+			   (1,'Game of Thrones','George RR Martin')
+			   (1,'Lord Of The Rings','Tolkien')
