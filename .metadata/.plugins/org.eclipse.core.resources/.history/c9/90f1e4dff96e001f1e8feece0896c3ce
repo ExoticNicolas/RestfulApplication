@@ -1,0 +1,5 @@
+package com.SpringBootREST.securityJWT;
+
+public class JWTTokenProvider {
+
+}

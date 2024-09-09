@@ -1,0 +1,5 @@
+package com.SpringBootREST.repositories;
+
+public class UserRepository {
+
+}
