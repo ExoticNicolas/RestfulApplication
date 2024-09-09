@@ -14,7 +14,7 @@ public class SwaggerIntegrationTest extends AbstractIntegrationTest {
 
 	@Test
 	public void shouldDisplaySwaggerUiPage() {
-		var content = given().basePath("/swagger-ui/index.hmtl")
+		var content = given().basePath("/swagger-ui/index.html")
 		.port(TestsConfigs.SERVER_PORT)
 		.when().get().then().statusCode(200)
 		.extract().body().asString();

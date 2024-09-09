@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jakarta.persistence.Temporal"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.TemporalType"/>
-    <fullyQualifiedTypeName name="org.flywaydb.core.api.output.DashboardRenderer"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="com.SpringBootREST.exceptions.NullEntityException"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestInstance"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestInstance.Lifecycle"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.extension.ExtendWith"/>
-    <fullyQualifiedTypeName name="org.mockito.junit.jupiter.MockitoExtension"/>
-    <fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.web.client.AutoConfigureMockRestServiceServer"/>
-    <fullyQualifiedTypeName name="com.SpringBootREST.unittests.mockito.services.BookServicesTest"/>
-    <fullyQualifiedTypeName name="org.mockito.Mock"/>
-    <fullyQualifiedTypeName name="com.SpringBootREST.repositories.BookRepository"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.SpringBootREST.mapper.MockBook"/>
     <fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
@@ -25,7 +10,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.SpringBootREST.unittests.mockito.services.PersonServicesTest"/>
     <fullyQualifiedTypeName name="com.SpringBootREST.repositories.PersonRepository"/>
-    <fullyQualifiedTypeName name="com.SpringBootREST.mapper.MockPerson"/>
     <fullyQualifiedTypeName name="com.github.dozermapper.core.Mapping"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonProperty"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonPropertyOrder"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.responses.ApiResponse"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.media.Content"/>
     <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.Operation"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.ClassOrderer.OrderAnnotation"/>
+    <fullyQualifiedTypeName name="io.restassured.specification.RequestSpecification"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.DeserializationFeature"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Order"/>
+    <fullyQualifiedTypeName name="com.SpringBootREST.mapper.MockPerson"/>
+    <fullyQualifiedTypeName name="io.restassured.builder.RequestSpecBuilder"/>
+    <fullyQualifiedTypeName name="io.restassured.filter.log.RequestLoggingFilter"/>
+    <fullyQualifiedTypeName name="io.restassured.filter.log.LogDetail"/>
+    <fullyQualifiedTypeName name="com.SpringBootREST.integrationtests.VO.PersonVO"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestMethodOrder"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.MethodOrderer.OrderAnnotation"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeAll"/>
 </qualifiedTypeNameHistroy>

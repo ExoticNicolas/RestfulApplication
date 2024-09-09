@@ -32,9 +32,6 @@ public class PersonService {
 	
 	public List<PersonVO> findAll(){
 			List<Person> persons = personRepository.findAll();
-			if(persons == null) {
-				throw new ResourceNotFoundException("Not Found");
-			}
 			List<PersonVO> vos = DozerMapper.parseListObject(persons, PersonVO.class);
 			vos.stream().forEach(p -> p.add(linkTo(methodOn(PersonController.class).findById(p.getKey())).withSelfRel()));
 			return vos;

@@ -1,12 +1,11 @@
 package com.SpringBootREST.controllers;
 
 
-import java.net.URI;
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.SpringBootREST.data.vo.PersonVO;
 import com.SpringBootREST.service.PersonService;
@@ -28,6 +26,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
+//@CrossOrigin
 @RestController
 @RequestMapping(value = "/api/person/v1")
 @Tag(name = "People", description = "Endpoints for Managing People")
@@ -36,6 +35,7 @@ public class PersonController {
 	@Autowired
 	private PersonService personService;
 	
+	@CrossOrigin(origins = "http://localhost:8080")
 	@GetMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML })
 	@Operation(summary = "Finds a Person", description = "Finds a Person",
 	tags = {"People"},
@@ -74,7 +74,7 @@ public class PersonController {
 		return ResponseEntity.ok().body(vos);
 	}
 	
-	
+	//@CrossOrigin(origins = {"http://localhost:8080","https://erudio.com.br"})
 	@PostMapping(consumes = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
 			     produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Creating a Person", description = "Creating a Person",
@@ -90,8 +90,8 @@ public class PersonController {
 	})
 	public ResponseEntity<PersonVO> create(@RequestBody PersonVO personVO){
 		PersonVO vo = personService.create(personVO);
-		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(vo.getKey()).toUri();
-		return ResponseEntity.created(uri).body(vo);
+		//URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(vo.getKey()).toUri();
+		return ResponseEntity.ok().body(vo);
 	}
 	
 	@PutMapping(consumes = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
