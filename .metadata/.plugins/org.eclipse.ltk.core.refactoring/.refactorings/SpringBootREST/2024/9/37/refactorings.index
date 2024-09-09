@@ -5,3 +5,14 @@
 1725833164965	Rename package 'com.SpringBootREST.integrationtests.controller'
 1725845706565	Rename type 'PersonVO'
 1725848638031	Move package
+1725893848624	Rename resource 'application.yml'
+1725895565202	Copy compilation unit
+1725895606786	Copy compilation unit
+1725895651612	Delete element
+1725895656103	Copy compilation unit
+1725895664068	Rename type 'BookVO'
+1725896539161	Rename type 'PersonVOCORS'
+1725909781391	Rename resource 'V10__Insert_Data_In_User_Permission'
+1725909839807	Delete element
+1725910286225	Rename resource 'V10_Insert_Data_In_User_Permission.sql'
+1725911388137	Rename type 'Users'

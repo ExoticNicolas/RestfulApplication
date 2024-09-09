@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PersonControllerJsonTest" project="SpringBootREST" tests="3" started="3" failures="2" errors="0" ignored="0">
+  <testsuite name="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="1.472" displayname="PersonControllerJsonTest" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]">
+    <testcase name="testCreate" classname="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="1.391" displayname="testCreate()" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]/[method:testCreate()]">
+      <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertNotNull(Assert.java:713)&#13;
+	at org.junit.Assert.assertNotNull(Assert.java:723)&#13;
+	at com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest.testCreate(PersonControllerJsonTest.java:66)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testCreateWithWrongOrigin" classname="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="0.018" displayname="testCreateWithWrongOrigin()" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]/[method:testCreateWithWrongOrigin()]"/>
+    <testcase name="testFindById" classname="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="0.062" displayname="testFindById()" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]/[method:testFindById()]">
+      <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertNotNull(Assert.java:713)&#13;
+	at org.junit.Assert.assertNotNull(Assert.java:723)&#13;
+	at com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest.testFindById(PersonControllerJsonTest.java:116)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

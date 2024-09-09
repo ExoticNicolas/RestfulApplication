@@ -1,0 +1,5 @@
+package com.SpringBootREST.model;
+
+public class Users {
+
+}

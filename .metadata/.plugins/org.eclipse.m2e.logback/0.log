@@ -2801,3 +2801,278 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:s
 2024-09-08 23:28:23,000 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-09-08 23:28:23,001 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-09-08 23:28:23,002 [Worker-203: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:40:07,706 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-09 11:43:42,653 [Worker-2: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 11:43:42,665 [Worker-2: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 11:43:42,669 [Worker-2: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:45:02,781 [Worker-2: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:45:02,782 [Worker-2: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:45:02,785 [Worker-2: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:45:50,526 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:45:50,527 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:45:50,529 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:46:13,239 [Worker-14: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:46:13,240 [Worker-14: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:46:13,243 [Worker-14: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:48:41,754 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:48:41,755 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:48:41,757 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:48:45,610 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:48:45,610 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:48:45,613 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:52:26,931 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:52:26,933 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:52:26,934 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:52:50,356 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:52:50,357 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:52:50,359 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:55:26,139 [Worker-18: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:55:26,140 [Worker-18: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 11:55:26,142 [Worker-18: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:57:28,770 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 11:57:28,778 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 11:57:28,780 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 11:58:33,076 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 11:58:33,088 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 11:58:33,095 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:00:26,637 [Worker-21: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 12:00:26,641 [Worker-21: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 12:00:26,644 [Worker-21: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:02:55,475 [Worker-23: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 12:02:55,479 [Worker-23: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 12:02:55,482 [Worker-23: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:03:42,219 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 12:03:42,223 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 12:03:42,225 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:04:33,581 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 12:04:33,585 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 12:04:33,587 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:04:48,807 [Worker-25: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:04:48,808 [Worker-25: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:04:48,810 [Worker-25: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:05:54,967 [Worker-24: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:05:54,968 [Worker-24: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:05:54,970 [Worker-24: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:06:39,769 [Worker-20: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:06:39,770 [Worker-20: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:06:39,771 [Worker-20: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:07:27,951 [Worker-27: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:07:27,953 [Worker-27: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:07:27,954 [Worker-27: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:24:54,872 [Worker-36: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:24:54,873 [Worker-36: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:24:54,875 [Worker-36: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:26:05,358 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:26:05,359 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:26:05,361 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:26:46,938 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:26:46,939 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:26:46,940 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:27:31,761 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 12:27:31,765 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 12:27:31,768 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:27:36,265 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:27:36,266 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:27:36,268 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:27:44,231 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 12:27:44,235 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 12:27:44,238 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:28:45,907 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:28:45,908 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:28:45,909 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:28:48,499 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:28:48,500 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:28:48,501 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:35:23,546 [Worker-42: Launching BookControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:35:23,548 [Worker-42: Launching BookControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:35:23,555 [Worker-42: Launching BookControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:36:58,310 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:36:58,311 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:36:58,315 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:37:09,670 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:37:09,671 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:37:09,674 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:42:19,328 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 12:42:19,336 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 12:42:19,339 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:42:56,004 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:42:56,005 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:42:56,008 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 12:46:03,176 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:46:03,177 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 12:46:03,179 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 13:17:58,025 [Worker-55: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 13:17:58,026 [Worker-55: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 13:17:58,029 [Worker-55: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:38:21,851 [Worker-56: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:38:21,853 [Worker-56: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:38:21,855 [Worker-56: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:39:02,873 [Worker-60: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:39:02,874 [Worker-60: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:39:02,875 [Worker-60: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:39:52,077 [Worker-59: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:39:52,078 [Worker-59: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:39:52,080 [Worker-59: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:40:15,673 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:40:15,674 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:40:15,676 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:48:47,255 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 15:48:47,263 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-09-09 15:48:47,266 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:53:30,316 [Worker-65: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 15:53:30,320 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:53:30,322 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 15:53:30,325 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:53:53,654 [Worker-65: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 15:53:53,657 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:53:53,658 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 15:53:53,660 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:54:17,146 [Worker-65: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 15:54:17,150 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:54:17,152 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 15:54:17,154 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:54:34,956 [Worker-63: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 15:54:34,959 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:54:34,960 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 15:54:34,962 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:54:51,904 [Worker-65: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 15:54:51,907 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:54:51,908 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 15:54:51,911 [Worker-65: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 15:58:11,251 [Worker-67: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 15:58:11,254 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 15:58:11,255 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 15:58:11,257 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:00:52,398 [Worker-67: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:00:52,402 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:00:52,403 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:00:52,405 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:06:38,307 [Worker-70: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:06:38,312 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:06:38,315 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:06:38,319 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:08:29,572 [Worker-66: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:08:29,576 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:08:29,577 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:08:29,579 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:08:56,443 [Worker-73: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:08:56,448 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:08:56,450 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:08:56,455 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:09:06,435 [Worker-66: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:09:06,440 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:09:06,442 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:09:06,446 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:19:19,976 [Worker-76: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:19:19,984 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:19:19,991 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2024-09-09 16:19:19,997 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:22:53,026 [Worker-78: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:22:53,030 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:22:53,031 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:22:53,033 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:23:01,531 [Worker-79: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:23:01,535 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:23:01,539 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2024-09-09 16:23:01,544 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:23:59,921 [Worker-75: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:23:59,923 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:23:59,924 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:23:59,926 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:24:17,943 [Worker-75: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:24:17,946 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:24:17,947 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:24:17,949 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:24:39,114 [Worker-78: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:24:39,117 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:24:39,118 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:24:39,121 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:27:12,333 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:27:12,338 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:27:12,339 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:27:12,341 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:28:02,830 [Worker-84: Launching SpringBootREST - SpringBootRestApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:28:02,834 [Worker-84: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:28:02,835 [Worker-84: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:28:02,838 [Worker-84: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:30:00,398 [Worker-86: Launching SpringBootREST - SpringBootRestApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:30:00,401 [Worker-86: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:30:00,403 [Worker-86: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:30:00,406 [Worker-86: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:31:26,397 [Worker-88: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:31:26,402 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:31:26,404 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:31:26,407 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:31:55,092 [Worker-78: Launching SpringBootREST - SpringBootRestApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:31:55,097 [Worker-78: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:31:55,100 [Worker-78: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:31:55,104 [Worker-78: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:32:29,810 [Worker-91: Launching SpringBootREST - SpringBootRestApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:32:29,814 [Worker-91: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:32:29,815 [Worker-91: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:32:29,818 [Worker-91: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:39:25,317 [Worker-99: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:39:25,963 [Worker-99: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.SpringBootREST:SpringBootREST:0.0.1-SNAPSHOT @ C:\Users\Pichau\Desktop\Projetos\SpringBootREST\pom.xml.
+2024-09-09 16:39:26,418 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.3.3/spring-boot-starter-security-3.3.3.pom
+2024-09-09 16:39:26,435 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.3.3/spring-boot-starter-security-3.3.3.pom
+2024-09-09 16:39:26,446 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3.pom
+2024-09-09 16:39:26,449 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3.pom
+2024-09-09 16:39:26,459 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3.pom
+2024-09-09 16:39:26,462 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3.pom
+2024-09-09 16:39:26,471 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3.pom
+2024-09-09 16:39:26,474 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3.pom
+2024-09-09 16:39:26,483 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3.pom
+2024-09-09 16:39:26,485 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3.pom
+2024-09-09 16:39:26,592 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.3.3/spring-boot-starter-security-3.3.3.jar
+2024-09-09 16:39:26,596 [Worker-99: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.3.3/spring-boot-starter-security-3.3.3.jar
+2024-09-09 16:39:26,604 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3.jar
+2024-09-09 16:39:26,618 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3.jar
+2024-09-09 16:39:26,623 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3.jar
+2024-09-09 16:39:26,623 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3.jar
+2024-09-09 16:39:26,626 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3.jar
+2024-09-09 16:39:26,657 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3.jar
+2024-09-09 16:39:26,661 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3.jar
+2024-09-09 16:39:26,671 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3.jar
+2024-09-09 16:39:26,914 [Worker-99: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:39:26,983 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:39:26,985 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-09 16:39:26,989 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:39:27,913 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.3.3/spring-boot-starter-security-3.3.3-sources.jar
+2024-09-09 16:39:27,916 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.3.3/spring-boot-starter-security-3.3.3-sources.jar
+2024-09-09 16:39:27,919 [Worker-99: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:3.3.3
+2024-09-09 16:39:27,942 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3-sources.jar
+2024-09-09 16:39:27,972 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/6.3.3/spring-security-config-6.3.3-sources.jar
+2024-09-09 16:39:27,974 [Worker-99: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:6.3.3
+2024-09-09 16:39:27,996 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3-sources.jar
+2024-09-09 16:39:28,017 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/6.3.3/spring-security-core-6.3.3-sources.jar
+2024-09-09 16:39:28,019 [Worker-99: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:6.3.3
+2024-09-09 16:39:28,040 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3-sources.jar
+2024-09-09 16:39:28,048 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.3/spring-security-crypto-6.3.3-sources.jar
+2024-09-09 16:39:28,050 [Worker-99: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-crypto:6.3.3
+2024-09-09 16:39:28,071 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3-sources.jar
+2024-09-09 16:39:28,114 [Worker-99: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/6.3.3/spring-security-web-6.3.3-sources.jar
+2024-09-09 16:39:28,118 [Worker-99: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:6.3.3
+2024-09-09 16:39:28,835 [Worker-101: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:39:28,839 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:39:28,864 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2024-09-09 16:39:28,885 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:45:55,140 [Worker-101: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:45:55,145 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:45:55,151 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2024-09-09 16:45:55,155 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:46:59,082 [Worker-106: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:46:59,084 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:46:59,092 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2024-09-09 16:46:59,094 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 16:49:48,265 [Worker-109: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 16:49:48,268 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 16:49:48,272 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2024-09-09 16:49:48,276 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 17:00:40,267 [Worker-108: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 17:00:40,273 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 17:00:40,280 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2024-09-09 17:00:40,283 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-09 17:00:44,300 [Worker-114: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-09-09 17:00:44,302 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-09 17:00:44,308 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 10 resources from src\main\resources to target\classes
+2024-09-09 17:00:44,311 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources

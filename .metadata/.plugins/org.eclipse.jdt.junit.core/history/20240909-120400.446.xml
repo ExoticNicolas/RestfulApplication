@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PersonControllerJsonTest" project="SpringBootREST" tests="3" started="3" failures="1" errors="1" ignored="0">
+  <testsuite name="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="1.448" displayname="PersonControllerJsonTest" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]">
+    <testcase name="testCreate" classname="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="1.423" displayname="testCreate()" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]/[method:testCreate()]">
+      <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertNotNull(Assert.java:713)&#13;
+	at org.junit.Assert.assertNotNull(Assert.java:723)&#13;
+	at com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest.testCreate(PersonControllerJsonTest.java:66)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testCreateWithWrongOrigin" classname="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="0.02" displayname="testCreateWithWrongOrigin()" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]/[method:testCreateWithWrongOrigin()]"/>
+    <testcase name="testFindById" classname="com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest" time="0.005" displayname="testFindById()" uniqueid="[engine:junit-jupiter]/[class:com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest]/[method:testFindById()]">
+      <error>java.lang.IllegalArgumentException: parameterValue cannot be null&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)&#13;
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)&#13;
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:519)&#13;
+	at com.SpringBootREST.integrationtests.controller.withjson.PersonControllerJsonTest.testFindById(PersonControllerJsonTest.java:109)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
