@@ -25,9 +25,9 @@ public class BookVO extends RepresentationModel<BookVO> implements Serializable 
 	private Double price;
 	@JsonProperty("Title")
 	private String title;
-	
+
 	public BookVO() {
-		
+
 	}
 
 	public BookVO(Long key, String author, Date launchDate, Double price, String title) {
@@ -85,12 +85,12 @@ public class BookVO extends RepresentationModel<BookVO> implements Serializable 
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if ((obj == null) || (getClass() != obj.getClass())) {
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		}
 		BookVO other = (BookVO) obj;
 		return Objects.equals(author, other.author) && Objects.equals(key, other.key)
 				&& Objects.equals(launchDate, other.launchDate) && Objects.equals(price, other.price)

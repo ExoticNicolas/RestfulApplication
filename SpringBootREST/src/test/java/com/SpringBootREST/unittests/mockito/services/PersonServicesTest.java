@@ -28,28 +28,28 @@ import com.SpringBootREST.service.PersonService;
 @TestInstance(Lifecycle.PER_CLASS)
 @ExtendWith(MockitoExtension.class)
 public class PersonServicesTest {
-	
+
 	MockPerson input;
-	
+
 	@InjectMocks
 	private PersonService service;
-	
+
 	@Mock
 	PersonRepository repository;
-	
+
 	@BeforeEach
 	void setUpmocks() throws Exception {
 		input = new MockPerson();
 		MockitoAnnotations.openMocks(this);
-			
+
 		}
-	
+
 	@Test
 	void testFindById() throws ParseException {
 		Person entity = input.mockEntity(1);
 		entity.setId(1L);
 		when(repository.findById(1L)).thenReturn(Optional.of(entity));
-		
+
 		var result = service.findById(1L);
 		assertNotNull(result);
 		assertNotNull(result.getKey());
@@ -60,18 +60,18 @@ public class PersonServicesTest {
 		assertEquals("Test Address1",result.getAddress());
 		assertEquals("Female",result.getGender());
 	}
-	
+
 	@Test
 	void testFindAll() throws ParseException {
-		
+
 		List<Person> list = input.mockEntityList();
-		
+
 		when(repository.findAll()).thenReturn(list);
-		
+
 		var persons = service.findAll();
 		assertNotNull(persons);
 		assertEquals(5,persons.size());
-		
+
 		var person1 = persons.get(1);
 		assertNotNull(person1);
 		assertNotNull(person1.getKey());
@@ -81,7 +81,7 @@ public class PersonServicesTest {
 		assertEquals("Test Last Name1",person1.getLastName());
 		assertEquals("Test Address1",person1.getAddress());
 		assertEquals("Female",person1.getGender());
-		
+
 		var person2 = persons.get(2);
 		assertNotNull(person2);
 		assertNotNull(person2.getKey());
@@ -91,7 +91,7 @@ public class PersonServicesTest {
 		assertEquals("Test Last Name2",person2.getLastName());
 		assertEquals("Test Address2",person2.getAddress());
 		assertEquals("Male",person2.getGender());
-		
+
 		var person3 = persons.get(3);
 		assertNotNull(person3);
 		assertNotNull(person3.getKey());
@@ -102,22 +102,22 @@ public class PersonServicesTest {
 		assertEquals("Test Address3",person3.getAddress());
 		assertEquals("Female",person3.getGender());
 	}
-	
+
 	@Test
 	void testCreate() throws ParseException {
-		
+
 		Person entity = input.mockEntity(1);
-		
+
 		Person persisted = entity;
 		persisted.setId(1L);
-		
+
 		PersonVO vo = input.mockVO(1);
 		vo.setKey(1L);
-		
+
 		when(repository.save(entity)).thenReturn(persisted);
-		
+
 		var result = service.create(vo);
-		
+
 		assertNotNull(result);
 		assertNotNull(result.getKey());
 		assertNotNull(result.getLinks());
@@ -127,33 +127,33 @@ public class PersonServicesTest {
 		assertEquals("Test Address1",result.getAddress());
 		assertEquals("Female",result.getGender());
 		}
-	
+
 	@Test
 	void testDelete() throws ParseException {
-		
+
 		Person entity = input.mockEntity(1);
 		entity.setId(1L);
-		
+
 		when(repository.findById(1L)).thenReturn(Optional.of(entity));
 		service.delete(1L);
 	}
-	
+
 	@Test
 	void testUpdate() throws ParseException {
 		Person entity = input.mockEntity(1);
 		entity.setId(1L);
-		
+
 		Person persisted = entity;
 		persisted.setId(1L);
-		
+
 		PersonVO vo = input.mockVO(1);
 		vo.setKey(1L);
-		
+
 		when(repository.findById(1L)).thenReturn(Optional.of(entity));
 		when(repository.save(entity)).thenReturn(persisted);
-		
+
 		var result = service.update(vo);
-		
+
 		assertNotNull(result);
 		assertNotNull(result.getKey());
 		assertNotNull(result.getLinks());

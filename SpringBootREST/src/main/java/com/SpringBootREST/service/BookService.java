@@ -19,17 +19,17 @@ import com.SpringBootREST.repositories.BookRepository;
 
 @Service
 public class BookService {
-	
+
 	@Autowired
 	private BookRepository bookRepository;
-	
+
 	public BookVO findById(Long id) {
 		Book book = bookRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not Found"));
 		BookVO vo = DozerMapper.parseObject(book, BookVO.class);
 		vo.add(linkTo((methodOn(BookController.class)).findById(id)).withSelfRel());
 		return vo;
 	}
-	
+
 	public List<BookVO> findAll(){
 		List<Book> books = bookRepository.findAll();
 		if(books == null) {
@@ -39,7 +39,7 @@ public class BookService {
 		vos.stream().forEach(p -> p.add(linkTo(methodOn(BookController.class).findById(p.getKey())).withSelfRel()));
 		return vos;
 	}
-	
+
 	public BookVO create(BookVO bookVO) {
 		if(bookVO == null) {
 			throw new  NullEntityException();
@@ -49,7 +49,7 @@ public class BookService {
 		vo.add(linkTo(methodOn(BookController.class).findById(vo.getKey())).withSelfRel());
 		return vo;
 	}
-	
+
 	public BookVO update(BookVO bookVO) {
 		if(bookVO.getKey() == null) {
 			throw new  IdNotNullException();
@@ -63,7 +63,7 @@ public class BookService {
 		vo.add(linkTo(methodOn(BookController.class).findById(vo.getKey())).withSelfRel());
 		return vo;
 	}
-	
+
 	public void delete(Long id) {
 		Book book = bookRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not Found"));
 		bookRepository.delete(book);

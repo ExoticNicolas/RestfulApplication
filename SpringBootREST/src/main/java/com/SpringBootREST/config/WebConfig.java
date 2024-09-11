@@ -21,10 +21,10 @@ public class WebConfig implements WebMvcConfigurer {
 	}
 
 	private static final MediaType MEDIA_TYPE_APPLICATION_YAML = MediaType.valueOf("application/x-yaml");
-	
+
 	@Value("${cors.originPatterns:default}")
 	private String corsOriginPatterns = "";
-	
+
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
 		var allowedOrigins = corsOriginPatterns.split(",");
@@ -46,7 +46,7 @@ public class WebConfig implements WebMvcConfigurer {
 		.defaultContentType(MediaType.APPLICATION_JSON)
 		.mediaType("json", MediaType.APPLICATION_JSON)
 		.mediaType("xml", MediaType.APPLICATION_XML);*/
-		
+
 		configurer.favorParameter(false)
 		.ignoreAcceptHeader(false)
 		.useRegisteredExtensionsOnly(false)
@@ -54,8 +54,8 @@ public class WebConfig implements WebMvcConfigurer {
 		.mediaType("json", MediaType.APPLICATION_JSON)
 		.mediaType("xml", MediaType.APPLICATION_XML)
 		.mediaType("x-yaml", MEDIA_TYPE_APPLICATION_YAML);
-		
+
 	}
 }
-	
+
 

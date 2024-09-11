@@ -61,20 +61,20 @@ public class BookControllerJsonTest extends AbstractIntegrationTest {
 
 		BookVOCORS persistedBook = objectMapper.readValue(content, BookVOCORS.class);
 		book = persistedBook;
-		
+
 		System.out.println(book);
 		System.out.println(persistedBook);
-		
+
 		assertNotNull(persistedBook);
-		
+
 		assertNotNull(persistedBook.getId());
 		assertNotNull(persistedBook.getAuthor());
 		assertNotNull(persistedBook.getLaunchDate());
 		assertNotNull(persistedBook.getPrice());
 		assertNotNull(persistedBook.getTitle());
-		
+
 		assertTrue(persistedBook.getId() > 0);
-		
+
 		assertEquals("TESTE", persistedBook.getAuthor());
 		assertEquals(sdf.parse("01/01/2001"), persistedBook.getLaunchDate());
 		assertEquals(5.0, persistedBook.getPrice());
@@ -101,7 +101,7 @@ public class BookControllerJsonTest extends AbstractIntegrationTest {
 	@Test
 	@Order(3)
 	public void testFindById() throws JsonMappingException, JsonProcessingException {
-		
+
 		mockPersonCORS();
 
 		specification = new RequestSpecBuilder().addHeader(TestsConfigs.HEADER_PARAM_ORIGIN, TestsConfigs.ORIGIN_ERUDIO)
@@ -132,7 +132,7 @@ public class BookControllerJsonTest extends AbstractIntegrationTest {
 	}*/
 
 	private void mockBookVOCORS() throws ParseException {
-		
+
 		book.setAuthor("TESTE");
 		book.setLaunchDate(sdf.parse("01/01/2001"));
 		book.setPrice(5.0);

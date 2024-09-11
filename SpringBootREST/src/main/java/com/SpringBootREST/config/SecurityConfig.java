@@ -1,6 +1,5 @@
 package com.SpringBootREST.config;
 
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,30 +10,29 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.password.DelegatingPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.crypto.password.Pbkdf2PasswordEncoder;
 import org.springframework.security.crypto.password.Pbkdf2PasswordEncoder.SecretKeyFactoryAlgorithm;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.SpringBootREST.security.JWT.JWTTokenFilter;
-import com.SpringBootREST.security.JWT.JWTTokenProvider;
+import com.SpringBootREST.security.JWT.JwtConfigurer;
+import com.SpringBootREST.security.JWT.JwtTokenProvider;
 
-@Configuration
 @EnableWebSecurity
-public class SecurityConfig  {
-	
+@Configuration
+public class SecurityConfig {
+
 	@Autowired
-	private JWTTokenProvider tokenProvider;
+	private JwtTokenProvider tokenProvider;
 	
 	@Bean
 	PasswordEncoder passwordEncoder() {
 		Map<String, PasswordEncoder> encoders = new HashMap<>();
 				
-		Pbkdf2PasswordEncoder pbkdf2Encoder = new Pbkdf2PasswordEncoder("", 8, 185000,
-                SecretKeyFactoryAlgorithm.PBKDF2WithHmacSHA256);
+		Pbkdf2PasswordEncoder pbkdf2Encoder = new Pbkdf2PasswordEncoder("", 8, 185000, SecretKeyFactoryAlgorithm.PBKDF2WithHmacSHA256);
 		encoders.put("pbkdf2", pbkdf2Encoder);
 		DelegatingPasswordEncoder passwordEncoder = new DelegatingPasswordEncoder("pbkdf2", encoders);
 		passwordEncoder.setDefaultPasswordEncoderForMatches(pbkdf2Encoder);
@@ -50,14 +48,9 @@ public class SecurityConfig  {
 
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        
-        JWTTokenFilter customFilter = new JWTTokenFilter(tokenProvider);
-        
-        //@formatter:off
         return http
-            .httpBasic(basic -> basic.disable())
-            .csrf(csrf -> csrf.disable())
-            .addFilterBefore(customFilter, UsernamePasswordAuthenticationFilter.class)
+                .httpBasic().disable()
+                .csrf(AbstractHttpConfigurer::disable)
                 .sessionManagement(
             		session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(
@@ -71,8 +64,11 @@ public class SecurityConfig  {
                         .requestMatchers("/api/**").authenticated()
                         .requestMatchers("/users").denyAll()
                 )
-            .cors(cors -> {})
+                .cors()
+                .and()
+                .apply(new JwtConfigurer(tokenProvider))
+                .and()
                 .build();
-        //@formatter:on
+ 
     }
 }

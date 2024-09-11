@@ -12,7 +12,7 @@ import com.github.dozermapper.core.Mapping;
 @JsonPropertyOrder({"key","firstName","lastName","address","gender"})
 public class PersonVO extends RepresentationModel<PersonVO> implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Mapping("id")
 	@JsonProperty("key")
 	private Long key;
@@ -24,11 +24,11 @@ public class PersonVO extends RepresentationModel<PersonVO> implements Serializa
 	private String address;
 	@JsonProperty("gender")
 	private String gender;
-	
+
 	public PersonVO() {
-		
+
 	}
-	
+
 	public PersonVO(Long key, String firstName, String lastName, String address, String gender) {
 		this.key = key;
 		this.firstName = firstName;
@@ -84,12 +84,12 @@ public class PersonVO extends RepresentationModel<PersonVO> implements Serializa
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if ((obj == null) || (getClass() != obj.getClass())) {
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		}
 		PersonVO other = (PersonVO) obj;
 		return Objects.equals(address, other.address) && Objects.equals(firstName, other.firstName)
 				&& Objects.equals(gender, other.gender) && Objects.equals(key, other.key)

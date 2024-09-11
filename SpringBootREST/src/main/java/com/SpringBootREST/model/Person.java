@@ -14,7 +14,7 @@ import jakarta.persistence.Table;
 @Table(name = "person")
 public class Person implements Serializable{
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
@@ -27,11 +27,11 @@ public class Person implements Serializable{
 	private String address;
 	@Column(name = "gender",length = 6)
 	private String gender;
-	
+
 	public Person() {
-		
+
 	}
-	
+
 	public Person(Long id, String firstName, String lastName, String address, String gender) {
 		this.id = id;
 		this.firstName = firstName;
@@ -87,17 +87,17 @@ public class Person implements Serializable{
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if ((obj == null) || (getClass() != obj.getClass())) {
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		}
 		Person other = (Person) obj;
 		return Objects.equals(address, other.address) && Objects.equals(firstName, other.firstName)
 				&& Objects.equals(gender, other.gender) && Objects.equals(id, other.id)
 				&& Objects.equals(lastName, other.lastName);
 	}
 
-	
+
 }

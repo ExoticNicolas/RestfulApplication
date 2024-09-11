@@ -6,15 +6,15 @@ import java.util.Objects;
 
 public class BookVOCORS implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private Long id;
 	private String author;
 	private Date launchDate;
 	private Double price;
 	private String title;
-	
+
 	public BookVOCORS() {
-		
+
 	}
 
 	public Long getId() {
@@ -64,12 +64,12 @@ public class BookVOCORS implements Serializable {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if ((obj == null) || (getClass() != obj.getClass())) {
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		}
 		BookVOCORS other = (BookVOCORS) obj;
 		return Objects.equals(author, other.author) && Objects.equals(id, other.id)
 				&& Objects.equals(launchDate, other.launchDate) && Objects.equals(price, other.price)

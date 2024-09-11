@@ -29,30 +29,30 @@ import com.SpringBootREST.service.BookService;
 @TestInstance(Lifecycle.PER_CLASS)
 @ExtendWith(MockitoExtension.class)
 public class BookServicesTest {
-	
+
 	MockBook input;
-	
+
 	@InjectMocks
 	private BookService service;
-	
+
 	@Mock
 	BookRepository repository;
-	
+
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-	
+
 	@BeforeEach
 	void setUpmocks() throws Exception {
 		input = new MockBook();
 		MockitoAnnotations.openMocks(this);
-			
+
 		}
-	
+
 	@Test
 	void testFindById() throws ParseException {
 		Book entity = input.mockEntity(1);
 		entity.setId(1L);
 		when(repository.findById(1L)).thenReturn(Optional.of(entity));
-		
+
 		var result = service.findById(1L);
 		assertNotNull(result);
 		assertNotNull(result.getKey());
@@ -63,18 +63,18 @@ public class BookServicesTest {
 		assertEquals(5.00,result.getPrice());
 		assertEquals("Test Title1",result.getTitle());
 	}
-	
+
 	@Test
 	void testFindAll() throws ParseException {
-		
+
 		List<Book> list = input.mockEntityList();
-		
+
 		when(repository.findAll()).thenReturn(list);
-		
+
 		var books = service.findAll();
 		assertNotNull(books);
 		assertEquals(5,books.size());
-		
+
 		var book1 = books.get(1);
 		assertNotNull(book1);
 		assertNotNull(book1.getKey());
@@ -84,7 +84,7 @@ public class BookServicesTest {
 		assertEquals(sdf.parse("01/01/2001"),book1.getLaunchDate());
 		assertEquals(5.00,book1.getPrice());
 		assertEquals("Test Title1",book1.getTitle());
-		
+
 		var book2 = books.get(2);
 		assertNotNull(book2);
 		assertNotNull(book2.getKey());
@@ -94,7 +94,7 @@ public class BookServicesTest {
 		assertEquals(sdf.parse("01/01/2001"),book2.getLaunchDate());
 		assertEquals(5.00,book2.getPrice());
 		assertEquals("Test Title2",book2.getTitle());
-		
+
 		var book4 = books.get(4);
 		assertNotNull(book4);
 		assertNotNull(book4.getKey());
@@ -105,22 +105,22 @@ public class BookServicesTest {
 		assertEquals(5.00,book4.getPrice());
 		assertEquals("Test Title4",book4.getTitle());
 	}
-	
+
 	@Test
 	void testCreate() throws ParseException {
-		
+
 		Book entity = input.mockEntity(1);
-		
+
 		Book persisted = entity;
 		persisted.setId(1L);
-		
+
 		BookVO vo = input.mockVO(1);
 		vo.setKey(1L);
-		
+
 		when(repository.save(entity)).thenReturn(persisted);
-		
+
 		var result = service.create(vo);
-		
+
 		assertNotNull(result);
 		assertNotNull(result.getKey());
 		assertNotNull(result.getLinks());
@@ -130,33 +130,33 @@ public class BookServicesTest {
 		assertEquals(5.00,result.getPrice());
 		assertEquals("Test Title1",result.getTitle());
 		}
-	
+
 	@Test
 	void testDelete() throws ParseException {
-		
+
 		Book entity = input.mockEntity(1);
 		entity.setId(1L);
-		
+
 		when(repository.findById(1L)).thenReturn(Optional.of(entity));
 		service.delete(1L);
 	}
-	
+
 	@Test
 	void testUpdate() throws ParseException {
 		Book entity = input.mockEntity(1);
 		entity.setId(1L);
-		
+
 		Book persisted = entity;
 		persisted.setId(1L);
-		
+
 		BookVO vo = input.mockVO(1);
 		vo.setKey(1L);
-		
+
 		when(repository.findById(1L)).thenReturn(Optional.of(entity));
 		when(repository.save(entity)).thenReturn(persisted);
-		
+
 		var result = service.update(vo);
-		
+
 		assertNotNull(result);
 		assertNotNull(result.getKey());
 		assertNotNull(result.getLinks());

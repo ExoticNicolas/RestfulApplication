@@ -14,10 +14,10 @@ import org.testcontainers.lifecycle.Startables;
 @ContextConfiguration(initializers = AbstractIntegrationTest.Initializer.class)
 public class AbstractIntegrationTest {
 
-	
+
 	static class Initializer implements ApplicationContextInitializer<ConfigurableApplicationContext>{
 		static MySQLContainer<?> mysql = new MySQLContainer<>("mysql:8.0.29");
-		
+
 		private static void startContainers() {
 			Startables.deepStart(Stream.of(mysql)).join();
 		}
@@ -34,10 +34,10 @@ public class AbstractIntegrationTest {
 		private static Map<String, String> createConnectionConfiguration() {
 			return Map.of("spring.datasource.url", mysql.getJdbcUrl(),
 						  "spring.datasource.username", mysql.getUsername(),
-						  "spring.datasource.password", mysql.getPassword()	
+						  "spring.datasource.password", mysql.getPassword()
 					);
 		}
 	}
 
-	
+
 }

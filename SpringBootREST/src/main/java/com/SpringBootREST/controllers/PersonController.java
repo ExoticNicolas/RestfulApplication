@@ -34,13 +34,13 @@ public class PersonController {
 
 	@Autowired
 	private PersonService personService;
-	
+
 	@CrossOrigin(origins = "http://localhost:8080")
 	@GetMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML })
 	@Operation(summary = "Finds a Person", description = "Finds a Person",
 	tags = {"People"},
 	responses = {
-			@ApiResponse(description = "Success", responseCode = "200", 
+			@ApiResponse(description = "Success", responseCode = "200",
 					content = @Content(schema = @Schema(implementation = PersonVO.class))),
 			@ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
 			@ApiResponse(description = "No Content", responseCode = "204", content = @Content),
@@ -52,12 +52,12 @@ public class PersonController {
 		PersonVO vo = personService.findById(id);
 		return ResponseEntity.ok().body(vo);
 	}
-	
+
 	@GetMapping(produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Finds All People", description = "Finds All People",
 	tags = {"People"},
 	responses = {
-			@ApiResponse(description = "Success", responseCode = "200", 
+			@ApiResponse(description = "Success", responseCode = "200",
 					content = {
 							@Content(
 									mediaType = "application/json",
@@ -73,14 +73,14 @@ public class PersonController {
 		List<PersonVO> vos = personService.findAll();
 		return ResponseEntity.ok().body(vos);
 	}
-	
+
 	@CrossOrigin(origins = {"http://localhost:8080","https://erudio.com.br"})
 	@PostMapping(consumes = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
 			     produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Creating a Person", description = "Creating a Person",
 	tags = {"People"},
 	responses = {
-			@ApiResponse(description = "Success", responseCode = "200", 
+			@ApiResponse(description = "Success", responseCode = "200",
 					content = @Content(schema = @Schema(implementation = PersonVO.class))),
 			@ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
 			@ApiResponse(description = "No Content", responseCode = "204", content = @Content),
@@ -92,13 +92,13 @@ public class PersonController {
 		PersonVO vo = personService.create(personVO);
 		return ResponseEntity.ok().body(vo);
 	}
-	
+
 	@PutMapping(consumes = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
 			    produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Updating a Person", description = "Updating a Person",
 	tags = {"People"},
 	responses = {
-			@ApiResponse(description = "Success", responseCode = "200", 
+			@ApiResponse(description = "Success", responseCode = "200",
 					content = @Content(schema = @Schema(implementation = PersonVO.class))),
 			@ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
 			@ApiResponse(description = "No Content", responseCode = "204", content = @Content),
@@ -110,7 +110,7 @@ public class PersonController {
 		PersonVO vo = personService.update(personVO);
 		return ResponseEntity.ok().body(vo);
 	}
-	
+
 	@DeleteMapping(value = "/{id}")
 	@Operation(summary = "Deleting a Person", description = "Deleting a Person",
 	tags = {"People"},

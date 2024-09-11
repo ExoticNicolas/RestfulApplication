@@ -17,7 +17,7 @@ import jakarta.persistence.TemporalType;
 @Table(name = "books")
 public class Book implements Serializable{
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -30,9 +30,9 @@ public class Book implements Serializable{
 	private Double price;
 	@Column(name = "title", nullable = false, length = 250)
 	private String title;
-	
+
 	public Book() {
-		
+
 	}
 
 	public Book(Long id, String author, Date launchDate, Double price, String title) {
@@ -90,12 +90,12 @@ public class Book implements Serializable{
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if ((obj == null) || (getClass() != obj.getClass())) {
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		}
 		Book other = (Book) obj;
 		return Objects.equals(author, other.author) && Objects.equals(id, other.id)
 				&& Objects.equals(launchDate, other.launchDate) && Objects.equals(price, other.price)

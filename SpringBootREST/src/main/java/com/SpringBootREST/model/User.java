@@ -1,11 +1,9 @@
 package com.SpringBootREST.model;
 
 import java.io.Serializable;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.Objects;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -20,42 +18,50 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
+
 @Entity
 @Table(name = "users")
-public class User implements UserDetails, Serializable{
+public class User implements UserDetails, Serializable {
+
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
 	@Column(name = "user_name", unique = true)
 	private String userName;
+	
 	@Column(name = "full_name")
 	private String fullName;
+	
 	@Column(name = "password")
 	private String password;
+	
 	@Column(name = "account_non_expired")
-	private Boolean accountNonExperired;
+	private Boolean accountNonExpired;
+	
 	@Column(name = "account_non_locked")
 	private Boolean accountNonLocked;
+	
 	@Column(name = "credentials_non_expired")
 	private Boolean credentialsNonExpired;
-	@Column(name = "enabled", length = 1)
+	
+	@Column(name = "enabled")
 	private Boolean enabled;
 	
 	@ManyToMany(fetch = FetchType.EAGER)
 	@JoinTable(name = "user_permission", joinColumns = {@JoinColumn (name = "id_user")},
-	inverseJoinColumns = {@JoinColumn (name = "id_permission")})
-	private List<Permission> permissions = new ArrayList<>();
+		inverseJoinColumns = {@JoinColumn (name = "id_permission")}
+	)
+	private List<Permission> permissions;
 	
-	public User() {
-		
-	}
-	
-	public List<String> getRoles(){
+	public User() {}
+
+	public List<String> getRoles() {
 		List<String> roles = new ArrayList<>();
-		for(Permission p: permissions) {
-			roles.add(p.getDescription());
+		for (Permission permission : permissions) {
+			roles.add(permission.getDescription());
 		}
 		return roles;
 	}
@@ -77,19 +83,19 @@ public class User implements UserDetails, Serializable{
 
 	@Override
 	public boolean isAccountNonExpired() {
-		return this.accountNonExperired;
+		return this.accountNonExpired;
 	}
-	
+
 	@Override
 	public boolean isAccountNonLocked() {
 		return this.accountNonLocked;
 	}
-	
+
 	@Override
 	public boolean isCredentialsNonExpired() {
 		return this.credentialsNonExpired;
 	}
-	
+
 	@Override
 	public boolean isEnabled() {
 		return this.enabled;
@@ -119,12 +125,12 @@ public class User implements UserDetails, Serializable{
 		this.fullName = fullName;
 	}
 
-	public Boolean getAccountNonExperired() {
-		return accountNonExperired;
+	public Boolean getAccountNonExpired() {
+		return accountNonExpired;
 	}
 
-	public void setAccountNonExperired(Boolean accountNonExperired) {
-		this.accountNonExperired = accountNonExperired;
+	public void setAccountNonExpired(Boolean accountNonExpired) {
+		this.accountNonExpired = accountNonExpired;
 	}
 
 	public Boolean getAccountNonLocked() {
@@ -165,8 +171,18 @@ public class User implements UserDetails, Serializable{
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(accountNonExperired, accountNonLocked, credentialsNonExpired, enabled, fullName, id,
-				password, permissions, userName);
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((accountNonExpired == null) ? 0 : accountNonExpired.hashCode());
+		result = prime * result + ((accountNonLocked == null) ? 0 : accountNonLocked.hashCode());
+		result = prime * result + ((credentialsNonExpired == null) ? 0 : credentialsNonExpired.hashCode());
+		result = prime * result + ((enabled == null) ? 0 : enabled.hashCode());
+		result = prime * result + ((fullName == null) ? 0 : fullName.hashCode());
+		result = prime * result + ((id == null) ? 0 : id.hashCode());
+		result = prime * result + ((password == null) ? 0 : password.hashCode());
+		result = prime * result + ((permissions == null) ? 0 : permissions.hashCode());
+		result = prime * result + ((userName == null) ? 0 : userName.hashCode());
+		return result;
 	}
 
 	@Override
@@ -178,11 +194,51 @@ public class User implements UserDetails, Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		User other = (User) obj;
-		return Objects.equals(accountNonExperired, other.accountNonExperired)
-				&& Objects.equals(accountNonLocked, other.accountNonLocked)
-				&& Objects.equals(credentialsNonExpired, other.credentialsNonExpired)
-				&& Objects.equals(enabled, other.enabled) && Objects.equals(fullName, other.fullName)
-				&& Objects.equals(id, other.id) && Objects.equals(password, other.password)
-				&& Objects.equals(permissions, other.permissions) && Objects.equals(userName, other.userName);
+		if (accountNonExpired == null) {
+			if (other.accountNonExpired != null)
+				return false;
+		} else if (!accountNonExpired.equals(other.accountNonExpired))
+			return false;
+		if (accountNonLocked == null) {
+			if (other.accountNonLocked != null)
+				return false;
+		} else if (!accountNonLocked.equals(other.accountNonLocked))
+			return false;
+		if (credentialsNonExpired == null) {
+			if (other.credentialsNonExpired != null)
+				return false;
+		} else if (!credentialsNonExpired.equals(other.credentialsNonExpired))
+			return false;
+		if (enabled == null) {
+			if (other.enabled != null)
+				return false;
+		} else if (!enabled.equals(other.enabled))
+			return false;
+		if (fullName == null) {
+			if (other.fullName != null)
+				return false;
+		} else if (!fullName.equals(other.fullName))
+			return false;
+		if (id == null) {
+			if (other.id != null)
+				return false;
+		} else if (!id.equals(other.id))
+			return false;
+		if (password == null) {
+			if (other.password != null)
+				return false;
+		} else if (!password.equals(other.password))
+			return false;
+		if (permissions == null) {
+			if (other.permissions != null)
+				return false;
+		} else if (!permissions.equals(other.permissions))
+			return false;
+		if (userName == null) {
+			if (other.userName != null)
+				return false;
+		} else if (!userName.equals(other.userName))
+			return false;
+		return true;
 	}
 }

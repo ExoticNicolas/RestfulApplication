@@ -33,12 +33,12 @@ public class BookController {
 
 	@Autowired
 	private BookService bookService;
-	
+
 	@GetMapping(produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Finds All Books", description = "Finds All Books",
 	tags = {"Books"},
 	responses = {
-			@ApiResponse(description = "Success", responseCode = "200", 
+			@ApiResponse(description = "Success", responseCode = "200",
 					content = {
 							@Content(
 										mediaType = "application/json",
@@ -54,7 +54,7 @@ public class BookController {
 		List<BookVO> vos = bookService.findAll();
 		return ResponseEntity.ok().body(vos);
 	}
-	
+
 	@GetMapping(value = "/{id}", produces = { MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Finds a Book", description = "Finds a Book",
 	tags = {"Books"},
@@ -64,14 +64,14 @@ public class BookController {
 			@ApiResponse(description = "Not Found", responseCode = "404", content = @Content),
 			@ApiResponse(description = "Internal Error", responseCode = "500", content = @Content),
 			@ApiResponse(description = "Bad Resquest", responseCode = "400", content = @Content),
-			@ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content)	
+			@ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content)
 	}
 	 )
 	public ResponseEntity<BookVO> findById(@PathVariable Long id) {
 		BookVO vo = bookService.findById(id);
 		return ResponseEntity.ok().body(vo);
 	}
-	
+
 	@PostMapping(produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
 				 consumes = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Creating a Book", description = "Creating a Book",
@@ -82,14 +82,14 @@ public class BookController {
 			@ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
 			@ApiResponse(description = "Internal Error", responseCode = "500", content = @Content),
 			@ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content),
-			@ApiResponse(description = "No Content", responseCode = "204", content = @Content)	
+			@ApiResponse(description = "No Content", responseCode = "204", content = @Content)
 	})
 	public ResponseEntity<BookVO> create(@RequestBody BookVO bookVO)	{
 		BookVO vo = bookService.create(bookVO);
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/id").buildAndExpand(vo.getKey()).toUri();
 		return ResponseEntity.created(uri).body(vo);
 	}
-	
+
 	@PutMapping(produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
 				consumes = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
 	@Operation(summary = "Updating a Book", description = "Updating a Book,",
@@ -106,7 +106,7 @@ public class BookController {
 		BookVO vo = bookService.update(bookVO);
 		return ResponseEntity.ok().body(vo);
 	}
-	
+
 	@DeleteMapping(value = "/{id}")
 	@Operation(summary = "Deleting a Book", description = "Deleting a Book",
 	tags = {"Books"},
@@ -121,4 +121,4 @@ public class BookController {
 		bookService.delete(id);
 		return ResponseEntity.noContent().build();
 	}
-}	
+}

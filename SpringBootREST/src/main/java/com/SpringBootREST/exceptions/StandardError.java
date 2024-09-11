@@ -5,13 +5,13 @@ import java.util.Date;
 
 public class StandardError implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	private String message;
 	private String error;
 	private Date date;
-	
+
 	public StandardError() {
-		
+
 	}
 
 	public StandardError(String message, String error, Date date) {
@@ -43,9 +43,9 @@ public class StandardError implements Serializable {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	
-	
-	
-	
+
+
+
+
 
 }

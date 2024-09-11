@@ -1,8 +1,8 @@
 package com.SpringBootREST.integrationtests.swagger;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -18,7 +18,7 @@ public class SwaggerIntegrationTest extends AbstractIntegrationTest {
 		.port(TestsConfigs.SERVER_PORT)
 		.when().get().then().statusCode(200)
 		.extract().body().asString();
-		
+
 		assertTrue(content.contains("Swagger UI"));
 	}
 
