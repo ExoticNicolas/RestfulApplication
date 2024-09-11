@@ -20,7 +20,6 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
-
 @Entity
 @Table(name = "users")
 public class User implements UserDetails, Serializable{
@@ -186,6 +185,4 @@ public class User implements UserDetails, Serializable{
 				&& Objects.equals(id, other.id) && Objects.equals(password, other.password)
 				&& Objects.equals(permissions, other.permissions) && Objects.equals(userName, other.userName);
 	}
-
-
 }

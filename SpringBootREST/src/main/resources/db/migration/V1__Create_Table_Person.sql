@@ -1,6 +1,6 @@
 
 CREATE TABLE IF NOT EXISTS person (
-  id bigint AUTO_INCREMENT,
+  `id` bigint AUTO_INCREMENT,
   first_name varchar(80),
   last_name varchar(80),
   `address` varchar(100),

@@ -1,0 +1,5 @@
+package com.SpringBootREST.config;
+
+public class SecurityConfig {
+
+}
