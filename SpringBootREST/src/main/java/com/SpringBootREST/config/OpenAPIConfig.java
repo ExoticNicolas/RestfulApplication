@@ -20,7 +20,5 @@ public class OpenAPIConfig {
 						.license(new License()
 								.name("Apache 2.0")
 								.url("")));
-
-
 	}
 }
