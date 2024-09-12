@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="username"/>
+		<item key="selection" value="TestsConfigs"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="userName"/>
 			<item value="TestConfigs"/>
+			<item value="userName"/>
 			<item value="key"/>
 			<item value="Key"/>
 			<item value="setKey"/>
@@ -21,8 +21,8 @@
 			<item value="book1"/>
 		</list>
 		<list key="replacehistory">
-			<item value="username"/>
 			<item value="TestsConfigs"/>
+			<item value="username"/>
 			<item value="id"/>
 			<item value="Id"/>
 			<item value="setId"/>

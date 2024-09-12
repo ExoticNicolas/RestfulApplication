@@ -1,5 +1,0 @@
-package com.SpringBootREST.repositories;
-
-public interface BookRepository {
-
-}

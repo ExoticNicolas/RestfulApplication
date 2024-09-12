@@ -1,5 +1,0 @@
-package com.SpringBootREST.data.vo;
-
-public class BookVO {
-
-}

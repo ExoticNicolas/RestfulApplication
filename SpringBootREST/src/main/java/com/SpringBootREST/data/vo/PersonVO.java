@@ -9,12 +9,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.github.dozermapper.core.Mapping;
 
-@JsonPropertyOrder({"key","firstName","lastName","address","gender"})
+@JsonPropertyOrder({"Id","firstName","lastName","address","gender","enabled"})
 public class PersonVO extends RepresentationModel<PersonVO> implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Mapping("id")
-	@JsonProperty("key")
+	@JsonProperty("id")
 	private Long key;
 	@JsonProperty("firstName")
 	private String firstName;
@@ -24,17 +24,20 @@ public class PersonVO extends RepresentationModel<PersonVO> implements Serializa
 	private String address;
 	@JsonProperty("gender")
 	private String gender;
+	@JsonProperty("enabled")
+	private Boolean enabled;
 
 	public PersonVO() {
 
 	}
 
-	public PersonVO(Long key, String firstName, String lastName, String address, String gender) {
+	public PersonVO(Long key, String firstName, String lastName, String address, String gender, Boolean enabled) {
 		this.key = key;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.address = address;
 		this.gender = gender;
+		this.enabled = enabled;
 	}
 
 	public Long getKey() {
@@ -76,10 +79,18 @@ public class PersonVO extends RepresentationModel<PersonVO> implements Serializa
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
+	
+	public Boolean getEnabled() {
+		return enabled;
+	}
+	
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(address, firstName, gender, key, lastName);
+		return Objects.hash(address, firstName, gender, key, lastName, enabled);
 	}
 
 	@Override
@@ -93,7 +104,7 @@ public class PersonVO extends RepresentationModel<PersonVO> implements Serializa
 		PersonVO other = (PersonVO) obj;
 		return Objects.equals(address, other.address) && Objects.equals(firstName, other.firstName)
 				&& Objects.equals(gender, other.gender) && Objects.equals(key, other.key)
-				&& Objects.equals(lastName, other.lastName);
+				&& Objects.equals(lastName, other.lastName) && Objects.equals(enabled, other.enabled);
 	}
 
 

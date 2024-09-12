@@ -1,5 +1,0 @@
-package com.SpringBootREST.controllers;
-
-public class PersonController {
-
-}

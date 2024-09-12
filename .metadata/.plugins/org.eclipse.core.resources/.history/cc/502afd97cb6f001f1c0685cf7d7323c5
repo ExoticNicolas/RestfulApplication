@@ -1,5 +1,0 @@
-package com.SpringBootREST.service;
-
-public class AuthService {
-
-}

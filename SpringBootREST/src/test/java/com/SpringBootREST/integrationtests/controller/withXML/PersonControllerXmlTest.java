@@ -30,6 +30,7 @@ import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.specification.RequestSpecification;
+import jakarta.xml.bind.JAXBException;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 @TestMethodOrder(OrderAnnotation.class)
@@ -50,9 +51,10 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 	
 	@Test
 	@Order(0)
-	public void authorization() throws JsonMappingException, JsonProcessingException {
+	public void authorization() throws JsonMappingException, JsonProcessingException, JAXBException {
 		
 		AccountCredentialsVO user = new AccountCredentialsVO("leandro", "admin123");
+	     
 		
 		var accessToken = given()
 				.basePath("/auth/signin")
@@ -105,6 +107,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertNotNull(persistedPerson.getLastName());
 		assertNotNull(persistedPerson.getAddress());
 		assertNotNull(persistedPerson.getGender());
+		assertNotNull(persistedPerson.getEnabled());
 		
 		assertTrue(persistedPerson.getId() > 0);
 		
@@ -112,6 +115,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertEquals("Piquet", persistedPerson.getLastName());
 		assertEquals("Brasília - DF - Brasil", persistedPerson.getAddress());
 		assertEquals("Male", persistedPerson.getGender());
+		assertEquals(true, persistedPerson.getEnabled());
 	}
 
 	@Test
@@ -141,6 +145,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertNotNull(persistedPerson.getLastName());
 		assertNotNull(persistedPerson.getAddress());
 		assertNotNull(persistedPerson.getGender());
+		assertNotNull(persistedPerson.getEnabled());
 		
 		assertEquals(person.getId(), persistedPerson.getId());
 		
@@ -148,6 +153,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertEquals("Piquet Souto Maior", persistedPerson.getLastName());
 		assertEquals("Brasília - DF - Brasil", persistedPerson.getAddress());
 		assertEquals("Male", persistedPerson.getGender());
+		assertEquals(true, persistedPerson.getEnabled());
 	}
 
 	@Test
@@ -177,6 +183,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertNotNull(persistedPerson.getLastName());
 		assertNotNull(persistedPerson.getAddress());
 		assertNotNull(persistedPerson.getGender());
+		assertNotNull(persistedPerson.getEnabled());
 
 		assertEquals(person.getId(), persistedPerson.getId());
 		
@@ -184,6 +191,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertEquals("Piquet Souto Maior", persistedPerson.getLastName());
 		assertEquals("Brasília - DF - Brasil", persistedPerson.getAddress());
 		assertEquals("Male", persistedPerson.getGender());
+		assertEquals(true, persistedPerson.getEnabled());
 	}
 	
 	@Test
@@ -224,6 +232,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertNotNull(foundPersonOne.getLastName());
 		assertNotNull(foundPersonOne.getAddress());
 		assertNotNull(foundPersonOne.getGender());
+		assertNotNull(foundPersonOne.getEnabled());
 		
 		assertEquals(1, foundPersonOne.getId());
 		
@@ -231,6 +240,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertEquals("Senna", foundPersonOne.getLastName());
 		assertEquals("São Paulo", foundPersonOne.getAddress());
 		assertEquals("Male", foundPersonOne.getGender());
+		assertEquals(true, foundPersonOne.getEnabled());
 		
 		PersonVO foundPersonSix = people.get(5);
 		
@@ -239,6 +249,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertNotNull(foundPersonSix.getLastName());
 		assertNotNull(foundPersonSix.getAddress());
 		assertNotNull(foundPersonSix.getGender());
+		assertNotNull(foundPersonSix.getEnabled());
 		
 		assertEquals(9, foundPersonSix.getId());
 		
@@ -246,6 +257,7 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		assertEquals("Mvezo", foundPersonSix.getLastName());
 		assertEquals("Mvezo – South Africa", foundPersonSix.getAddress());
 		assertEquals("Male", foundPersonSix.getGender());
+		assertEquals(true, foundPersonSix.getEnabled());
 	}
 
 	
@@ -274,5 +286,6 @@ public class PersonControllerXmlTest extends AbstractIntegrationTest {
 		person.setLastName("Piquet");
 		person.setAddress("Brasília - DF - Brasil");
 		person.setGender("Male");
+		person.setEnabled(true);
 	}
 }

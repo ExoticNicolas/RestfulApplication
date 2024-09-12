@@ -24,6 +24,7 @@ public class MockPerson {
 		person.setLastName("Test Last Name" + number);
 		person.setAddress("Test Address" + number);
 		person.setGender(((number % 2) == 0) ? "Male" : "Female");
+		person.setEnabled(true);
 		return person;
 	}
 
@@ -35,6 +36,7 @@ public class MockPerson {
 		person.setLastName("Test Last Name" + number);
 		person.setAddress("Test Address" + number);
 		person.setGender(((number % 2) == 0) ? "Male" : "Female");
+		person.setEnabled(true);
 		return person;
 	}
 

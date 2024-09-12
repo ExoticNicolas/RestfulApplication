@@ -1,6 +1,0 @@
-
-INSERT INTO TABLE PERSON ('id','first_name','last_name','address', 'gender') VALUES
-						 (1,'Nicolas','Granado','Indaiatuba - Sao Paulo','Male')
-						 (1,'Gilson','Ribeiro','Indaiatuba - Sao Paulo','Male')
-						 (1,'Maria','de Fatima','Indaiatuba - Sao Paulo','Female')
-						 (1,'Adriana Leite','Gimenez','Indaiatuba - Sao Paulo','Female')

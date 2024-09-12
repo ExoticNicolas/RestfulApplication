@@ -1,5 +1,0 @@
-package com.SpringBootREST.unittests.mockito.services;
-
-public class BookServicesTest {
-
-}

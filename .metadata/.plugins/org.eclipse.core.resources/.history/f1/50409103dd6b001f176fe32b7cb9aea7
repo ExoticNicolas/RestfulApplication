@@ -1,7 +1,0 @@
-create table (
-	id bigint not null primary key,
-	firstName varchar (80) not null,
-	lastName varchar(80) not null,
-	address varchar (100) not null,
-	gender varchar(6) not null
-)

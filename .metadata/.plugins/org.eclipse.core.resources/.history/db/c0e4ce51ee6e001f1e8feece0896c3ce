@@ -1,5 +1,0 @@
-package com.SpringBootREST.data.vo.security;
-
-public class AccountCredentialsVO {
-
-}

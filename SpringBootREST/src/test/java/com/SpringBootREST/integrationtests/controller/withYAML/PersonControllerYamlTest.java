@@ -117,6 +117,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertNotNull(persistedPerson.getLastName());
 		assertNotNull(persistedPerson.getAddress());
 		assertNotNull(persistedPerson.getGender());
+		assertNotNull(persistedPerson.getEnabled());
 		
 		assertTrue(persistedPerson.getId() > 0);
 		
@@ -124,6 +125,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertEquals("Piquet", persistedPerson.getLastName());
 		assertEquals("Brasília - DF - Brasil", persistedPerson.getAddress());
 		assertEquals("Male", persistedPerson.getGender());
+		assertEquals(true, persistedPerson.getEnabled());
 	}
 
 	@Test
@@ -159,6 +161,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertNotNull(persistedPerson.getLastName());
 		assertNotNull(persistedPerson.getAddress());
 		assertNotNull(persistedPerson.getGender());
+		assertNotNull(persistedPerson.getEnabled());
 		
 		assertEquals(person.getId(), persistedPerson.getId());
 		
@@ -166,6 +169,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertEquals("Piquet Souto Maior", persistedPerson.getLastName());
 		assertEquals("Brasília - DF - Brasil", persistedPerson.getAddress());
 		assertEquals("Male", persistedPerson.getGender());
+		assertEquals(true, persistedPerson.getEnabled());
 	}
 
 	@Test
@@ -201,6 +205,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertNotNull(persistedPerson.getLastName());
 		assertNotNull(persistedPerson.getAddress());
 		assertNotNull(persistedPerson.getGender());
+		assertNotNull(persistedPerson.getEnabled());
 
 		assertEquals(person.getId(), persistedPerson.getId());
 		
@@ -208,6 +213,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertEquals("Piquet Souto Maior", persistedPerson.getLastName());
 		assertEquals("Brasília - DF - Brasil", persistedPerson.getAddress());
 		assertEquals("Male", persistedPerson.getGender());
+		assertEquals(true, persistedPerson.getEnabled());
 	}
 	
 	@Test
@@ -262,6 +268,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertNotNull(foundPersonOne.getLastName());
 		assertNotNull(foundPersonOne.getAddress());
 		assertNotNull(foundPersonOne.getGender());
+		assertNotNull(foundPersonOne.getEnabled());
 		
 		assertEquals(1, foundPersonOne.getId());
 		
@@ -269,6 +276,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertEquals("Senna", foundPersonOne.getLastName());
 		assertEquals("São Paulo", foundPersonOne.getAddress());
 		assertEquals("Male", foundPersonOne.getGender());
+		assertEquals(true, foundPersonOne.getEnabled());
 		
 		PersonVO foundPersonSix = people.get(5);
 		
@@ -277,6 +285,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertNotNull(foundPersonSix.getLastName());
 		assertNotNull(foundPersonSix.getAddress());
 		assertNotNull(foundPersonSix.getGender());
+		assertNotNull(foundPersonSix.getEnabled());
 		
 		assertEquals(9, foundPersonSix.getId());
 		
@@ -284,6 +293,7 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		assertEquals("Mvezo", foundPersonSix.getLastName());
 		assertEquals("Mvezo – South Africa", foundPersonSix.getAddress());
 		assertEquals("Male", foundPersonSix.getGender());
+		assertEquals(true, foundPersonSix.getEnabled());
 	}
 
 	
@@ -319,5 +329,6 @@ public class PersonControllerYamlTest extends AbstractIntegrationTest {
 		person.setLastName("Piquet");
 		person.setAddress("Brasília - DF - Brasil");
 		person.setGender("Male");
+		person.setEnabled(true);
 	}
 }
