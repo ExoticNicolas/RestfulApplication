@@ -4,8 +4,11 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PagedResourcesAssembler;
+import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.PagedModel;
 import org.springframework.stereotype.Service;
 
 import com.SpringBootREST.controllers.PersonController;
@@ -24,6 +27,9 @@ public class PersonService {
 
 	@Autowired
 	private PersonRepository personRepository;
+	
+	@Autowired
+	private PagedResourcesAssembler<PersonVO> assembler;
 
 	public PersonVO findById(Long id) {
 		Person entity = personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not Found"));
@@ -41,12 +47,15 @@ public class PersonService {
 		return vo;
 	}
 
-	public Page<PersonVO> findAll(Pageable pageable){
+	public PagedModel<EntityModel<PersonVO>> findAll(Pageable pageable){
 		
 			var personPage = personRepository.findAll(pageable);
 			var personsvoPage = personPage.map(p -> DozerMapper.parseObject(p, PersonVO.class));
 			personsvoPage.map(p -> p.add(linkTo(methodOn(PersonController.class).findById(p.getKey())).withSelfRel()));
-			return personsvoPage;
+			
+			Link link = linkTo(methodOn(PersonController.class).findAll(pageable.getPageNumber(), pageable.getPageSize(), "asc")).withSelfRel();
+			
+			return assembler.toModel(personsvoPage, link);
 	}
 
 	public PersonVO create(PersonVO personVO) {
