@@ -3,9 +3,9 @@ package com.SpringBootREST.service;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.SpringBootREST.controllers.PersonController;
@@ -41,11 +41,12 @@ public class PersonService {
 		return vo;
 	}
 
-	public List<PersonVO> findAll(){
-			List<Person> persons = personRepository.findAll();
-			List<PersonVO> vos = DozerMapper.parseListObject(persons, PersonVO.class);
-			vos.stream().forEach(p -> p.add(linkTo(methodOn(PersonController.class).findById(p.getKey())).withSelfRel()));
-			return vos;
+	public Page<PersonVO> findAll(Pageable pageable){
+		
+			var personPage = personRepository.findAll(pageable);
+			var personsvoPage = personPage.map(p -> DozerMapper.parseObject(p, PersonVO.class));
+			personsvoPage.map(p -> p.add(linkTo(methodOn(PersonController.class).findById(p.getKey())).withSelfRel()));
+			return personsvoPage;
 	}
 
 	public PersonVO create(PersonVO personVO) {

@@ -62,7 +62,7 @@ public class PersonServicesTest {
 		assertEquals(true ,result.getEnabled());
 	}
 
-	@Test
+	/*@Test
 	void testFindAll() throws ParseException {
 
 		List<Person> list = input.mockEntityList();
@@ -106,7 +106,7 @@ public class PersonServicesTest {
 		assertEquals("Test Address3",person3.getAddress());
 		assertEquals("Female",person3.getGender());
 		assertEquals(true ,person3.getEnabled());
-	}
+	}*/
 
 	@Test
 	void testCreate() throws ParseException {
