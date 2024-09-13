@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -50,6 +51,23 @@ public class PersonController {
 	})
 	public ResponseEntity<PersonVO> findById(@PathVariable Long id)	{
 		PersonVO vo = personService.findById(id);
+		return ResponseEntity.ok().body(vo);
+	}
+	
+	@PatchMapping(value = "/{id}", produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML})
+	@Operation(summary = "Disabling a a Person", description = "Disable a Person",
+	tags = {"People"},
+	responses = {
+			@ApiResponse(description = "Success", responseCode = "200",
+					content = @Content(schema = @Schema(implementation = PersonVO.class))),
+			@ApiResponse(description = "Bad Request", responseCode = "400", content = @Content),
+			@ApiResponse(description = "No Content", responseCode = "204", content = @Content),
+			@ApiResponse(description = "Unauthorized", responseCode = "401", content = @Content),
+			@ApiResponse(description = "Not Found", responseCode = "404", content = @Content),
+			@ApiResponse(description = "Internal Error", responseCode = "500", content = @Content)
+	})
+	public ResponseEntity<PersonVO> disablePerson(@PathVariable Long id)	{
+		PersonVO vo = personService.disablePerson(id);
 		return ResponseEntity.ok().body(vo);
 	}
 

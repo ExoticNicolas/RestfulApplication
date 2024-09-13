@@ -16,6 +16,8 @@ import com.SpringBootREST.mapper.DozerMapper;
 import com.SpringBootREST.model.Person;
 import com.SpringBootREST.repositories.PersonRepository;
 
+import jakarta.transaction.Transactional;
+
 
 @Service
 public class PersonService {
@@ -29,6 +31,15 @@ public class PersonService {
 		vo.add(linkTo((methodOn(PersonController.class)).findById(id)).withSelfRel());
 		return vo;
 	}
+	
+	@Transactional
+	public PersonVO disablePerson(Long id) {
+		personRepository.disablePerson(id);
+		Person entity = personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not Found"));
+		PersonVO vo = DozerMapper.parseObject(entity, PersonVO.class);
+		vo.add(linkTo((methodOn(PersonController.class)).findById(id)).withSelfRel());
+		return vo;
+	}
 
 	public List<PersonVO> findAll(){
 			List<Person> persons = personRepository.findAll();
@@ -37,7 +48,7 @@ public class PersonService {
 			return vos;
 	}
 
-	public PersonVO create (PersonVO personVO) {
+	public PersonVO create(PersonVO personVO) {
 		Person entity = DozerMapper.parseObject(personVO, Person.class);
 		PersonVO vo = DozerMapper.parseObject(personRepository.save(entity), PersonVO.class);
 		vo.add(linkTo(methodOn(PersonController.class).findById(vo.getKey())).withSelfRel());
