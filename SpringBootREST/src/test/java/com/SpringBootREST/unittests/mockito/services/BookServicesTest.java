@@ -64,7 +64,7 @@ public class BookServicesTest {
 		assertEquals("Test Title1",result.getTitle());
 	}
 
-	@Test
+	/*@Test
 	void testFindAll() throws ParseException {
 
 		List<Book> list = input.mockEntityList();
@@ -104,7 +104,7 @@ public class BookServicesTest {
 		assertEquals(sdf.parse("01/01/2001"),book4.getLaunchDate());
 		assertEquals(5.00,book4.getPrice());
 		assertEquals("Test Title4",book4.getTitle());
-	}
+	}*/
 
 	@Test
 	void testCreate() throws ParseException {

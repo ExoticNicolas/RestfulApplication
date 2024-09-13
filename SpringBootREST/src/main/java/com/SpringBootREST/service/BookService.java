@@ -3,9 +3,12 @@ package com.SpringBootREST.service;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PagedResourcesAssembler;
+import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.PagedModel;
 import org.springframework.stereotype.Service;
 
 import com.SpringBootREST.controllers.BookController;
@@ -22,6 +25,9 @@ public class BookService {
 
 	@Autowired
 	private BookRepository bookRepository;
+	
+	@Autowired
+	private PagedResourcesAssembler<BookVO> assembler;
 
 	public BookVO findById(Long id) {
 		Book book = bookRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Not Found"));
@@ -30,14 +36,16 @@ public class BookService {
 		return vo;
 	}
 
-	public List<BookVO> findAll(){
-		List<Book> books = bookRepository.findAll();
-		if(books == null) {
-			throw new ResourceNotFoundException("Not Found");
-		}
-		List<BookVO> vos = DozerMapper.parseListObject(books, BookVO.class);
-		vos.stream().forEach(p -> p.add(linkTo(methodOn(BookController.class).findById(p.getKey())).withSelfRel()));
-		return vos;
+	public PagedModel<EntityModel<BookVO>> findAll(Pageable pageable){
+		
+		var booksPage = bookRepository.findAll(pageable);
+		
+		var booksVOPage = booksPage.map(p -> DozerMapper.parseObject(p, BookVO.class));
+		booksVOPage.map(p -> p.add(linkTo(methodOn(BookController.class).findById(p.getKey())).withSelfRel()));
+		
+		Link link = linkTo(methodOn(BookController.class).findAll(pageable.getPageNumber(), pageable.getPageSize(), "asc")).withSelfRel();
+		
+		return assembler.toModel(booksVOPage, link);
 	}
 
 	public BookVO create(BookVO bookVO) {
