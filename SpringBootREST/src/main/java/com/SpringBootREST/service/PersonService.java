@@ -38,6 +38,17 @@ public class PersonService {
 		return vo;
 	}
 	
+	public PagedModel<EntityModel<PersonVO>> findPersonsByName(String firstName, Pageable pageable) {
+		
+		 var entity = personRepository.findPersonsByName(firstName, pageable);
+		 var personVO = entity.map(p -> DozerMapper.parseObject(p, PersonVO.class));
+		 personVO.map(p -> p.add(linkTo(methodOn(PersonController.class).findById(p.getKey())).withSelfRel()));
+		 
+		 Link link = linkTo(methodOn(PersonController.class).findAll(pageable.getPageNumber(), pageable.getPageSize(), "desc")).withSelfRel();
+		 
+		 return assembler.toModel(personVO, link);
+	}
+	
 	@Transactional
 	public PersonVO disablePerson(Long id) {
 		personRepository.disablePerson(id);
