@@ -1,7 +1,5 @@
 package com.SpringBootREST.controllers;
 
-import java.net.URI;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -19,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.SpringBootREST.data.vo.BookVO;
 import com.SpringBootREST.service.BookService;
@@ -58,13 +55,13 @@ public class BookController {
 			})
 	public ResponseEntity<PagedModel<EntityModel<BookVO>>> findAll(
 			@RequestParam(value = "page", defaultValue = "0" ) Integer page,
-			@RequestParam(value = "size", defaultValue = "12") Integer size,
+			@RequestParam(value = "limit", defaultValue = "12") Integer limit,
 			@RequestParam(value = "direction", defaultValue = "asc") String direction)
 			{
 		
 		var sortDirection = "desc".equalsIgnoreCase(direction) ? Direction.DESC : Direction.ASC;
 		
-		Pageable pageable = PageRequest.of(page, size, Sort.by(sortDirection, "author"));
+		Pageable pageable = PageRequest.of(page, limit, Sort.by(sortDirection, "author"));
 		
 		return ResponseEntity.ok().body(bookService.findAll(pageable));
 	}
@@ -100,8 +97,7 @@ public class BookController {
 	})
 	public ResponseEntity<BookVO> create(@RequestBody BookVO bookVO)	{
 		BookVO vo = bookService.create(bookVO);
-		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/id").buildAndExpand(vo.getKey()).toUri();
-		return ResponseEntity.created(uri).body(vo);
+		return ResponseEntity.ok().body(vo);
 	}
 
 	@PutMapping(produces = {MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML},
