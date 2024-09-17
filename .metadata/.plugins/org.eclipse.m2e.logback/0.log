@@ -8505,3 +8505,313 @@ org.eclipse.core.runtime.CoreException: Launch configuration SwaggerIntegrationT
 2024-09-17 10:20:45,044 [Worker-47: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2024-09-17 10:20:45,046 [Worker-47: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2024-09-17 10:20:45,048 [Worker-47: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 10:22:14,747 [Worker-33: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 10:22:14,749 [Worker-33: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 10:22:14,751 [Worker-33: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:28:05,137 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-17 12:35:57,465 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-09-17 12:35:57,818 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:35:57,832 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:35:57,839 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:35:59,243 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:35:59,250 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 12:35:59,253 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:38:23,000 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:38:23,020 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:38:23,034 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:38:24,103 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:38:24,112 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 12:38:24,116 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:39:47,053 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:39:47,058 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:39:47,064 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:45:06,883 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.erudio:rest-with-spring-boot-and-java-erudio:0.0.1-SNAPSHOT @ C:\Users\Pichau\Desktop\Projetos\SpringBootREST\pom.xml.
+2024-09-17 12:45:07,366 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1.pom
+2024-09-17 12:45:07,385 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1.pom
+2024-09-17 12:45:07,391 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-09-17 12:45:07,495 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1.jar
+2024-09-17 12:45:07,537 [Worker-21: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1.jar
+2024-09-17 12:45:07,853 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 12:45:07,854 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 12:45:07,857 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:45:08,816 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1-sources.jar
+2024-09-17 12:45:08,831 [Worker-21: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-configuration-processor/3.0.1/spring-boot-configuration-processor-3.0.1-sources.jar
+2024-09-17 12:45:08,834 [Worker-21: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-configuration-processor:3.0.1
+2024-09-17 12:45:09,774 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:45:09,809 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:45:09,825 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:46:31,630 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:46:31,635 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:46:31,639 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:47:15,589 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:47:15,593 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:47:15,598 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:48:13,198 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:48:13,206 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:48:13,211 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:50:46,305 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:50:46,312 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:50:46,317 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:51:20,359 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:51:20,364 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:51:20,367 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:53:50,744 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:53:50,749 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:53:50,753 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:55:15,946 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:55:15,950 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:55:15,954 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:55:40,152 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:55:40,156 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:55:40,160 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 12:58:46,375 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 12:58:46,382 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 12:58:46,388 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:04:25,558 [Worker-32: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:04:25,565 [Worker-32: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:04:25,569 [Worker-32: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:12:21,689 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:12:21,696 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:12:21,700 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:12:35,951 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:12:35,956 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:12:35,961 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:14:22,269 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:14:22,277 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 13:14:22,280 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:14:38,354 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:14:38,360 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:14:38,364 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:15:36,655 [Worker-43: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:15:36,668 [Worker-43: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:15:36,672 [Worker-43: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:19:51,689 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:19:51,695 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:19:51,699 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:19:58,990 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:19:58,997 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 13:19:58,998 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:22:13,327 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:22:13,332 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:22:13,336 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:23:58,740 [Worker-57: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:23:58,744 [Worker-57: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:23:58,749 [Worker-57: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:30:30,296 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:30:30,315 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 13:30:30,317 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:30:36,267 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:30:36,280 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:30:36,283 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 13:32:00,133 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 13:32:00,139 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 13:32:00,143 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 16:08:59,475 [Worker-70: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 16:08:59,509 [Worker-70: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 16:08:59,518 [Worker-70: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 16:09:23,640 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 16:09:23,649 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 16:09:23,651 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 16:09:33,612 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 16:09:33,623 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 16:09:33,625 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 16:09:44,180 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 16:09:44,191 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 16:09:44,194 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 16:10:36,278 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 16:10:36,282 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 16:10:36,285 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:29:44,148 [Worker-74: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:29:44,184 [Worker-74: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:29:44,192 [Worker-74: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:33:49,308 [Worker-77: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:33:49,315 [Worker-77: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:33:49,322 [Worker-77: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:34:08,484 [Worker-77: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:34:08,488 [Worker-77: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:34:08,492 [Worker-77: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:34:36,949 [Worker-82: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:34:36,953 [Worker-82: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:34:36,957 [Worker-82: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:35:26,057 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:35:26,062 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:35:26,065 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:35:27,836 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:35:27,840 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:35:27,845 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:36:15,353 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:36:15,358 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:36:15,361 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:47:09,041 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:47:09,050 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:47:09,055 [Worker-83: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:51:02,044 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:51:02,050 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:51:02,053 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:54:34,610 [Worker-91: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:54:34,617 [Worker-91: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:54:34,621 [Worker-91: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:56:18,745 [Worker-98: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:56:18,750 [Worker-98: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:56:18,755 [Worker-98: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:58:04,914 [Worker-104: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:58:04,918 [Worker-104: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:58:04,921 [Worker-104: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 17:59:09,066 [Worker-94: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 17:59:09,070 [Worker-94: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 17:59:09,074 [Worker-94: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:10:42,734 [Worker-111: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:10:42,742 [Worker-111: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:10:42,745 [Worker-111: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:11:10,802 [Worker-107: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:11:10,809 [Worker-107: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:11:10,813 [Worker-107: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:12:57,878 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:12:57,882 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:12:57,885 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:15:03,781 [Worker-112: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:15:03,786 [Worker-112: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:15:03,790 [Worker-112: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:15:21,348 [Worker-121: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:15:21,353 [Worker-121: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:15:21,357 [Worker-121: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:16:15,658 [Worker-122: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:16:15,663 [Worker-122: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:16:15,666 [Worker-122: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:17:02,828 [Worker-121: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:17:02,832 [Worker-121: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:17:02,835 [Worker-121: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:22:02,570 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:22:02,577 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:22:02,581 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:22:27,747 [Worker-114: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:22:27,753 [Worker-114: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:22:27,757 [Worker-114: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:22:37,986 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:22:37,993 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 18:22:37,994 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:23:13,793 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:23:13,798 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 18:23:13,799 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:23:40,314 [Worker-125: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:23:40,319 [Worker-125: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:23:40,323 [Worker-125: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 18:23:54,200 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 18:23:54,204 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 18:23:54,208 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:26:44,175 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:26:44,183 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:26:44,186 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:26:45,649 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:26:45,661 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 19:26:45,663 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:26:53,733 [Worker-138: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:26:53,740 [Worker-138: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:26:53,744 [Worker-138: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:28:36,259 [Worker-143: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.erudio:rest-with-spring-boot-and-java-erudio:0.0.1-SNAPSHOT @ C:\Users\Pichau\Desktop\Projetos\SpringBootREST\pom.xml.
+2024-09-17 19:28:36,583 [Worker-143: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.31 has been relocated to com.mysql:mysql-connector-j:jar:8.0.31: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-09-17 19:28:36,909 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 19:28:36,910 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 19:28:36,915 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:32:05,484 [Worker-144: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:32:05,495 [Worker-144: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:32:05,499 [Worker-144: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:33:21,634 [Worker-147: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:33:21,639 [Worker-147: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:33:21,643 [Worker-147: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:33:47,299 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:33:47,304 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:33:47,307 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:36:24,954 [Worker-142: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:36:24,959 [Worker-142: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:36:24,962 [Worker-142: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:36:36,988 [Worker-151: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:36:36,993 [Worker-151: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:36:36,997 [Worker-151: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:37:14,280 [Worker-152: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:37:14,285 [Worker-152: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:37:14,288 [Worker-152: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:37:31,830 [Worker-154: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:37:31,835 [Worker-154: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:37:31,838 [Worker-154: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:39:50,732 [Worker-157: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:39:50,739 [Worker-157: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:39:50,742 [Worker-157: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:40:11,999 [Worker-156: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:40:12,005 [Worker-156: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:40:12,009 [Worker-156: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:41:11,102 [Worker-156: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:41:11,107 [Worker-156: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:41:11,111 [Worker-156: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:44:41,732 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:44:41,736 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:44:41,739 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:51:16,097 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:51:16,104 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 19:51:16,105 [Worker-168: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:51:23,108 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:51:23,113 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:51:23,116 [Worker-170: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:51:36,676 [Worker-167: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:51:36,684 [Worker-167: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:51:36,688 [Worker-167: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:54:51,210 [Worker-168: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:54:51,217 [Worker-168: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:54:51,221 [Worker-168: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:55:07,834 [Worker-175: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:55:07,839 [Worker-175: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:55:07,842 [Worker-175: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:55:36,402 [Worker-172: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:55:36,409 [Worker-172: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:55:36,414 [Worker-172: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:55:48,114 [Worker-178: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:55:48,119 [Worker-178: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:55:48,123 [Worker-178: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:56:18,386 [Worker-174: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:56:18,391 [Worker-174: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:56:18,395 [Worker-174: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:57:25,916 [Worker-177: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:57:25,921 [Worker-177: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:57:25,924 [Worker-177: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:58:40,087 [Worker-176: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:58:40,092 [Worker-176: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:58:40,096 [Worker-176: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 19:59:19,854 [Worker-178: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 19:59:19,859 [Worker-178: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 19:59:19,862 [Worker-178: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:00:50,650 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:00:50,655 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:00:50,658 [Worker-178: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:03:23,634 [Worker-181: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:03:23,640 [Worker-181: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:03:23,644 [Worker-181: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:04:12,173 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:04:12,179 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:04:12,182 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:05:14,904 [Worker-179: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:05:14,909 [Worker-179: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:05:14,912 [Worker-179: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:05:36,875 [Worker-186: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:05:36,880 [Worker-186: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-17 20:05:36,882 [Worker-186: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:05:53,120 [Worker-181: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:05:53,125 [Worker-181: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:05:53,129 [Worker-181: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:06:43,307 [Worker-186: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:06:43,312 [Worker-186: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:06:43,316 [Worker-186: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:08:58,881 [Worker-182: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:08:58,886 [Worker-182: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:08:58,889 [Worker-182: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:09:08,704 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:09:08,708 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:09:08,711 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:10:00,172 [Worker-182: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:10:00,180 [Worker-182: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:10:00,185 [Worker-182: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:11:38,557 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:11:38,564 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:11:38,567 [Worker-185: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-17 20:14:56,607 [Worker-192: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-17 20:14:56,612 [Worker-192: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-17 20:14:56,615 [Worker-192: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources

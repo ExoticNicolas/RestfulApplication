@@ -5,7 +5,7 @@ org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
 	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
 	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:180)
-	at com.SpringBootREST.integrationtests.controller.withYAML.PersonControllerYamlTest.testHATEOAS(PersonControllerYamlTest.java:448)
+	at com.SpringBootREST.integrationtests.controller.withjson.BookControllerJsonTest.testHATEOAS(BookControllerJsonTest.java:326)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
