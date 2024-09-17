@@ -6,7 +6,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 
 import java.text.ParseException;
-import java.util.List;
 import java.util.Optional;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -62,51 +61,7 @@ public class PersonServicesTest {
 		assertEquals(true ,result.getEnabled());
 	}
 
-	/*@Test
-	void testFindAll() throws ParseException {
-
-		List<Person> list = input.mockEntityList();
-
-		when(repository.findAll()).thenReturn(list);
-
-		var persons = service.findAll();
-		assertNotNull(persons);
-		assertEquals(5,persons.size());
-
-		var person1 = persons.get(1);
-		assertNotNull(person1);
-		assertNotNull(person1.getKey());
-		assertNotNull(person1.getLinks());
-		assertTrue(person1.toString().contains("links: [</api/person/v1/1>;rel=\"self\"]"));
-		assertEquals("Test First Name1",person1.getFirstName());
-		assertEquals("Test Last Name1",person1.getLastName());
-		assertEquals("Test Address1",person1.getAddress());
-		assertEquals("Female",person1.getGender());
-		assertEquals(true , person1.getEnabled());
-
-		var person2 = persons.get(2);
-		assertNotNull(person2);
-		assertNotNull(person2.getKey());
-		assertNotNull(person2.getLinks());
-		assertTrue(person2.toString().contains("links: [</api/person/v1/2>;rel=\"self\"]"));
-		assertEquals("Test First Name2",person2.getFirstName());
-		assertEquals("Test Last Name2",person2.getLastName());
-		assertEquals("Test Address2",person2.getAddress());
-		assertEquals("Male",person2.getGender());
-		assertEquals(true ,person2.getEnabled());
-		
-
-		var person3 = persons.get(3);
-		assertNotNull(person3);
-		assertNotNull(person3.getKey());
-		assertNotNull(person3.getLinks());
-		assertTrue(person3.toString().contains("links: [</api/person/v1/3>;rel=\"self\"]"));
-		assertEquals("Test First Name3",person3.getFirstName());
-		assertEquals("Test Last Name3",person3.getLastName());
-		assertEquals("Test Address3",person3.getAddress());
-		assertEquals("Female",person3.getGender());
-		assertEquals(true ,person3.getEnabled());
-	}*/
+	
 
 	@Test
 	void testCreate() throws ParseException {

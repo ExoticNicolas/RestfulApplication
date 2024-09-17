@@ -8323,3 +8323,111 @@ org.eclipse.core.runtime.CoreException: Launch configuration SwaggerIntegrationT
 2024-09-16 21:43:29,239 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2024-09-16 21:43:29,240 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2024-09-16 21:43:29,243 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:44:36,454 [Worker-122: Launching java] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:44:36,456 [Worker-122: Launching java] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:44:36,458 [Worker-122: Launching java] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:51:19,749 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:51:19,750 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:51:19,752 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:51:22,406 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:51:22,407 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:51:22,409 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:54:32,343 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:54:32,345 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:54:32,346 [Worker-120: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:57:02,967 [Worker-134: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:57:02,969 [Worker-134: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:57:02,971 [Worker-134: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:59:25,907 [Worker-134: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:59:25,908 [Worker-134: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:59:25,910 [Worker-134: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:03:09,554 [Worker-133: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:03:09,556 [Worker-133: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:03:09,558 [Worker-133: Launching PersonControllerJsonTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:05:48,619 [Worker-137: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:05:48,621 [Worker-137: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:05:48,622 [Worker-137: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:11:34,786 [Worker-138: Launching PersonControllerXmlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:11:34,787 [Worker-138: Launching PersonControllerXmlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:11:34,789 [Worker-138: Launching PersonControllerXmlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:13:19,254 [Worker-142: Launching PersonControllerXmlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:13:19,255 [Worker-142: Launching PersonControllerXmlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:13:19,258 [Worker-142: Launching PersonControllerXmlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:17:44,463 [Worker-139: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:17:44,464 [Worker-139: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:17:44,466 [Worker-139: Launching SpringBootREST - SpringBootRestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:20:35,615 [Worker-136: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:20:35,617 [Worker-136: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:20:35,618 [Worker-136: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:21:44,875 [Worker-139: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:21:44,876 [Worker-139: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:21:44,878 [Worker-139: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:22:44,852 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:22:44,853 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:22:44,854 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:23:55,244 [Worker-137: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:23:55,245 [Worker-137: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:23:55,246 [Worker-137: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:24:29,621 [Worker-142: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:24:29,623 [Worker-142: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:24:29,624 [Worker-142: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:25:46,461 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:25:46,463 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:25:46,464 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:26:56,563 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:26:56,565 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:26:56,566 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:27:30,561 [Worker-141: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:27:30,562 [Worker-141: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:27:30,564 [Worker-141: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:29:14,595 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:29:14,597 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:29:14,598 [Worker-138: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:29:57,694 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:29:57,695 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:29:57,696 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:30:43,842 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:30:43,844 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:30:43,845 [Worker-135: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:32:01,507 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:32:01,509 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:32:01,510 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:34:44,508 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:34:44,510 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:34:44,511 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:37:59,734 [Worker-145: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:37:59,735 [Worker-145: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:37:59,736 [Worker-145: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:39:00,394 [Worker-146: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:39:00,395 [Worker-146: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:39:00,397 [Worker-146: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:39:50,894 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:39:50,896 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:39:50,897 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:40:27,724 [Worker-146: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:40:27,726 [Worker-146: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:40:27,727 [Worker-146: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:40:46,625 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:40:46,626 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:40:46,628 [Worker-143: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:41:40,223 [Worker-147: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:41:40,224 [Worker-147: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:41:40,226 [Worker-147: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:47:55,321 [Worker-149: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:47:55,322 [Worker-149: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:47:55,323 [Worker-149: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:52:09,030 [Worker-154: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:52:09,032 [Worker-154: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:52:09,033 [Worker-154: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:53:19,329 [Worker-157: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:53:19,330 [Worker-157: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:53:19,332 [Worker-157: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:56:14,488 [Worker-157: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:56:14,490 [Worker-157: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:56:14,491 [Worker-157: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:57:50,838 [Worker-154: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:57:50,839 [Worker-154: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:57:50,841 [Worker-154: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 22:58:23,398 [Worker-153: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:58:23,399 [Worker-153: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 22:58:23,401 [Worker-153: Launching PersonControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
