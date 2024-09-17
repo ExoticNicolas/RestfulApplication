@@ -8281,3 +8281,45 @@ org.eclipse.core.runtime.CoreException: Launch configuration SwaggerIntegrationT
 2024-09-16 21:11:27,026 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2024-09-16 21:11:27,027 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2024-09-16 21:11:27,029 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:14:46,673 [Worker-106: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:14:46,674 [Worker-106: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:14:46,676 [Worker-106: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:15:25,234 [Worker-104: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:15:25,236 [Worker-104: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:15:25,237 [Worker-104: Launching BookControllerYamlTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:20:54,483 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:20:54,485 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:20:54,486 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:21:15,834 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2024-09-16 21:21:15,840 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources
+2024-09-16 21:21:15,844 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:22:38,407 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:22:38,408 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:22:38,409 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:34:11,624 [Worker-112: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:34:11,626 [Worker-112: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:34:11,628 [Worker-112: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:35:46,146 [Worker-119: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:35:46,147 [Worker-119: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:35:46,149 [Worker-119: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:36:26,186 [Worker-112: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:36:26,188 [Worker-112: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:36:26,189 [Worker-112: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:38:08,455 [Worker-121: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:38:08,457 [Worker-121: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:38:08,459 [Worker-121: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:38:49,024 [Worker-119: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:38:49,026 [Worker-119: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:38:49,027 [Worker-119: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:39:44,484 [Worker-120: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:39:44,485 [Worker-120: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:39:44,487 [Worker-120: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:40:24,302 [Worker-122: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:40:24,304 [Worker-122: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:40:24,305 [Worker-122: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:42:29,024 [Worker-121: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:42:29,026 [Worker-121: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:42:29,027 [Worker-121: Launching PersonRepositoryTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
+2024-09-16 21:43:29,239 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:43:29,240 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-09-16 21:43:29,243 [Worker-123: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Pichau\Desktop\Projetos\SpringBootREST\src\test\resources
