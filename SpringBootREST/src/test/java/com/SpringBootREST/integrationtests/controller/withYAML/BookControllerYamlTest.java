@@ -362,6 +362,42 @@ public class BookControllerYamlTest extends AbstractIntegrationTest {
 				.statusCode(403);
 	}
 	
+	@Test
+	@Order(8)
+	public void testHATEOAS() throws JsonMappingException, JsonProcessingException {
+		
+		var unthreatedContent = given().spec(specification)
+				.config(
+						RestAssuredConfig
+							.config()
+							.encoderConfig(EncoderConfig.encoderConfig()
+								.encodeContentTypeAs(
+									TestsConfigs.CONTENT_TYPE_YML,
+									ContentType.TEXT)))
+				.contentType(TestsConfigs.CONTENT_TYPE_YML)
+				.queryParams("page", 0, "limit", 15, "direction", "asc")
+				.accept(TestsConfigs.CONTENT_TYPE_YML)
+					.when()
+					.get()
+				.then()
+					.statusCode(200)
+						.extract()
+						.body()
+						.asString();
+					
+		var content = unthreatedContent.replace("\n", "").replace("\r", "");
+						
+		
+		assertTrue(content.contains("rel: \"self\"    href: \"http://localhost:8080/api/book/v1/15\""));
+		assertTrue(content.contains("rel: \"self\"    href: \"http://localhost:8080/api/book/v1/9\""));
+		assertTrue(content.contains("rel: \"self\"    href: \"http://localhost:8080/api/book/v1/4\""));
+		
+		assertTrue(content.contains("rel: \"self\"  href: \"http://localhost:8080/api/book/v1?page=0&limit=15&direction=asc\""));
+		
+		assertTrue(content.contains("page:  size: 15  totalElements: 15  totalPages: 1  number: 0"));
+	
+	}
+	
 	private void mokcBook() throws ParseException {
 		book.setAuthor("Michael");
 		book.setLaunchDate(sdf.parse("01/01/2001"));

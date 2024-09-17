@@ -315,6 +315,31 @@ public class BookControllerXmlTest extends AbstractIntegrationTest {
 				.statusCode(403);
 	}
 	
+	@Test
+	@Order(8)
+	public void testHATEOAS() throws JsonMappingException, JsonProcessingException {
+		
+		var content = given().spec(specification)
+				.contentType(TestsConfigs.CONTENT_TYPE_XML)
+				.accept(TestsConfigs.CONTENT_TYPE_XML)
+				.queryParams("page", 0, "limit", 15, "direction", "asc" )
+					.when()
+					.get()
+				.then()
+					.statusCode(200)
+						.extract()
+						.body()
+							.asString();
+		
+		
+		assertTrue(content.contains("<href>http://localhost:8080/api/book/v1/12</href>"));
+		assertTrue(content.contains("<href>http://localhost:8080/api/book/v1/10</href>"));
+		assertTrue(content.contains("<href>http://localhost:8080/api/book/v1/5</href>"));
+		
+		assertTrue(content.contains("<links><rel>self</rel><href>http://localhost:8080/api/book/v1?page=0&amp;limit=15&amp;direction=asc</href></links>"));
+		
+		assertTrue(content.contains("<page><size>15</size><totalElements>15</totalElements><totalPages>1</totalPages><number>0</number></page>"));
+	}
 	
 	
 	private void mockBook() throws ParseException {
