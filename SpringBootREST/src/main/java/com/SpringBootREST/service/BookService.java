@@ -77,4 +77,16 @@ public class BookService {
 		bookRepository.delete(book);
 	}
 
+	public PagedModel<EntityModel<BookVO>> findBookByAuthor(String author, Pageable pageable) {
+		
+		var entity = bookRepository.findBookByAuthorName(author, pageable);
+		var vo = entity.map(p -> DozerMapper.parseObject(p, BookVO.class));
+		vo.map(p -> p.add(linkTo(methodOn(BookController.class).findById(p.getKey())).withSelfRel()));
+		
+		Link link = linkTo(methodOn(BookController.class).findAll(pageable.getPageNumber(), pageable.getPageSize(), "asc")).withSelfRel();
+		
+		return assembler.toModel(vo, link);
+	}
+
+	
 }

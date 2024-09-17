@@ -248,10 +248,44 @@ public class BookControllerJsonTest extends AbstractIntegrationTest {
 		assertEquals(45.0, foundBookSix.getPrice());
 		assertEquals("Os 11 segredos de líderes de TI altamente influentes", foundBookSix.getTitle());
 	}
+	@Test
+	@Order(6)
+	public void testFindBookByAuthor() throws JsonMappingException, JsonProcessingException, ParseException {
+		
+		var content = given().spec(specification)
+				.contentType(TestsConfigs.CONTENT_TYPE_JSON)
+				.pathParam("author", "ls")
+				.queryParams("page", 0, "limit", 10, "direction", "asc" )
+					.when()
+					.get("/findBookByAuthor/{author}")
+				.then()
+					.statusCode(200)
+						.extract()
+						.body()
+							.asString();
+		
+		WrapperBookVO wrapper = objectMapper.readValue(content, WrapperBookVO.class);
+		var book = wrapper.getEmbedded().getBooks();
+		
+		BookVO foundBookOne = book.get(0);
+		
+		assertNotNull(foundBookOne.getId());
+		assertNotNull(foundBookOne.getAuthor());
+		assertNotNull(foundBookOne.getPrice()); 
+		assertNotNull(foundBookOne.getTitle());
+		
+		assertEquals(9, foundBookOne.getId());
+		
+		assertEquals("Brian Goetz e Tim Peierls", foundBookOne.getAuthor());
+		assertEquals(sdf.parse("07/11/2017"), foundBookOne.getLaunchDate());
+		assertEquals(80.0, foundBookOne.getPrice());
+		assertEquals("Java Concurrency in Practice", foundBookOne.getTitle());
+		
+	}
 
 	
 	@Test
-	@Order(6)
+	@Order(7)
 	public void testFindAllWithoutToken() throws JsonMappingException, JsonProcessingException {
 		
 		RequestSpecification specificationWithoutToken = new RequestSpecBuilder()
